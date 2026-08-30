@@ -2,7 +2,7 @@
 Assign a TRAIN / VAL / TEST = 70 / 15 / 15 split to the tiered 100-text set.
 
 The split is written back as a `split` field on every example in
-`generated/qud_tiered_annotated.jsonl` (mirrors `story_corpus.jsonl`), so both the
+`generated/qud_tiered_annotated.jsonl`, so the
 verifier-dataset builder (`build_verifier_from_tiered.py`) and the benchmark
 (`bench_lib.load_units("tiered_{train,val,test}")`) can read it.
 

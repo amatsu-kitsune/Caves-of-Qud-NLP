@@ -85,13 +85,18 @@ is under-trained and needs a 40-epoch run.
 ```
 Final_Caves_of_QUD.owl        the ontology (schema + populated ABox)
 pipeline1/
-  scripts/                    pipeline, dataset builders, training, benchmark
-  data-input/{train,val,test} 300 generated stories
-  generated/                  ontology interface, gold triples, tiered corpus,
-                              verifier splits
+  scripts/                    pipeline, dataset builder, training, benchmark
+  generated/                  benchmark corpus (300 annotated texts),
+                              ontology interface, gold triples, verifier splits
   outputs/                    benchmark reports, per-text metrics, KG graphs
   models/                     trained weights (gitignored — rebuild locally)
 ```
+
+The evaluation corpus is `generated/qud_tiered_annotated.jsonl` — 300 texts across
+four difficulty tiers (75 each), carrying 639 gold triples. Every triple is validated
+against the asserted ABox facts, so domain/range and disjointness hold by
+construction. `generated/qud_tiered_texts.txt` is the same corpus as plain TSV
+(`id`, `tier`, `text`) for reading; the pipeline consumes the JSONL.
 
 ## Setup
 
@@ -111,7 +116,6 @@ Regenerate the schema and datasets from the ontology:
 cd pipeline1/scripts
 python build_qud_dataset.py
 python build_gliner_glirel_config.py
-python gen_tiered_expand.py
 python split_tiered.py
 python build_verifier_from_tiered.py
 ```
@@ -132,7 +136,7 @@ python bench_report.py
 Extract triples from a single text:
 
 ```bash
-python infer_pipeline.py --file ../data-input/test/story_010.txt \
+python infer_pipeline.py --text "Otho gives the player the quest A Call to Arms." \
     --use-gliner --use-glirel --model ../models/verifier_t5_base/best_model
 ```
 

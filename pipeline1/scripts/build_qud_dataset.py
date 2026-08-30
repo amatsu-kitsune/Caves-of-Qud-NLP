@@ -16,7 +16,7 @@ smoke test). Point --input-dir at real .txt files later.
 
 Usage:
   python build_qud_dataset.py
-  python build_qud_dataset.py --input-dir ../data-input --glob "*.txt"
+  python build_qud_dataset.py
 """
 from __future__ import annotations
 

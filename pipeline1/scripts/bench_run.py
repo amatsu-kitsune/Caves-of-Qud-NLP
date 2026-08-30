@@ -8,7 +8,7 @@ a no-verifier reference) on TWO levels, holding stages 1/2/4/5 fixed:
               (accuracy, macro-F1, and rejection recall per hard-negative type)
 
   END-TO-END: full chain  txt -> GLiNER -> GLiREL -> <verifier> -> SHACL -> KG
-              over story_val and/or the tiered set, reporting per stage:
+              over the tiered corpus, reporting per stage:
                 entity_recall (stage 1) | candidate_recall ceiling (stage 2)
                 triple Precision/Recall/F1 (stage 3) | KG-level P/R/F1 (stage 5)
               broken down per complexity tier.
@@ -125,8 +125,7 @@ def md_table(headers, rows):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--corpus", default="tiered_test",
-                    choices=["tiered_train", "tiered_val", "tiered_test", "tiered",
-                             "story_train", "story_val", "story_test", "both"])
+                    choices=["tiered_train", "tiered_val", "tiered_test", "tiered"])
     ap.add_argument("--models", default="zoo",
                     help="'zoo' (BERT_ZOO + spaCy) | 'auto' (all on disk) | comma list of dir basenames")
     ap.add_argument("--eval", choices=["intrinsic", "e2e", "both"], default="both")

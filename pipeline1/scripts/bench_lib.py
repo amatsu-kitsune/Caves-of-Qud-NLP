@@ -129,20 +129,9 @@ def _jsonl(p):
 
 def load_units(corpus: str) -> list[dict]:
     units = []
-    story_split = {"story_train": "train", "story_val": "val",
-                   "story_test": "test", "both": "test"}.get(corpus)
-    if story_split:
-        for story in _jsonl(GEN / "story_corpus.jsonl"):
-            if story["split"] != story_split:
-                continue
-            for j, line in enumerate(story["lines"]):
-                gold = {(t["subject"], t["predicate"], t["object"])
-                        for t in line["triples"] if t["object"] != "LiteralValue"}
-                units.append({"id": f'{story["story_id"]}#{j}', "tier": f"story_{story_split}",
-                              "text": line["text"], "gold": gold})
     tiered_split = {"tiered_train": "train", "tiered_val": "val",
                     "tiered_test": "test"}.get(corpus)
-    if corpus in ("tiered", "both") or tiered_split:
+    if corpus == "tiered" or tiered_split:
         for ex in _jsonl(GEN / "qud_tiered_annotated.jsonl"):
             if tiered_split and ex.get("split") != tiered_split:
                 continue

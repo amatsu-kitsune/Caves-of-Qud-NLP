@@ -25,7 +25,7 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-import build_verifier_from_stories as bvs
+import corpus_lib as cl
 
 BASE = Path(__file__).resolve().parents[1]
 GEN = BASE / "generated"
@@ -38,17 +38,17 @@ def main():
     args = ap.parse_args()
     rng = random.Random(args.seed)
 
-    bvs.DT_ANCHOR.update({
+    cl.DT_ANCHOR.update({
         "level": lambda v: rf"\blevel[\s-]{re.escape(v)}\b",
         "Value": lambda v: rf"\bworth\s+{re.escape(v)}\b|\b{re.escape(v)}\s+drams\b",
         "Weight": lambda v: rf"\b(?:weighs|weight of|weighing)\s+{re.escape(v)}\b",
     })
 
-    examples = bvs.load_jsonl(GEN / "qud_tiered_annotated.jsonl")
+    examples = cl.load_jsonl(GEN / "qud_tiered_annotated.jsonl")
     if not all("split" in e for e in examples):
         raise SystemExit("qud_tiered_annotated.jsonl has no 'split' field -> "
                          "run `python split_tiered.py` first")
-    gold = bvs.load_jsonl(GEN / "gold_triples.jsonl")
+    gold = cl.load_jsonl(GEN / "gold_triples.jsonl")
     iface = json.loads((GEN / "ontology_interface.json").read_text(encoding="utf-8"))
 
     relmeta = {r["short"]: r for r in iface["relation_vocabulary"]}
@@ -61,7 +61,7 @@ def main():
         label_of[t["subject"]] = t["subject_label"]
         if t["kind"] == "object_property":
             label_of[t["object"]] = t["object_label"]
-    label_of.update(bvs.SURFACE_OVERRIDES)
+    label_of.update(cl.SURFACE_OVERRIDES)
     all_labels = sorted(set(label_of.values()), key=len, reverse=True)
 
     def closure(i):
@@ -104,7 +104,7 @@ def main():
                 if args.no_datatype:
                     continue
                 v = str(tr["object"])
-                valid = bvs.mark_literal(txt, label_of[s], p, v, all_labels)
+                valid = cl.mark_literal(txt, label_of[s], p, v, all_labels)
                 if valid is None:
                     dt_misses += 1
                     continue
@@ -115,7 +115,7 @@ def main():
                 continue
             o = tr["object"]
             ls, lo = label_of[s], label_of[o]
-            valid = bvs.mark_pair(txt, ls, lo, all_labels)
+            valid = cl.mark_pair(txt, ls, lo, all_labels)
             if valid is None:
                 obj_misses += 1
                 continue
@@ -124,7 +124,7 @@ def main():
             if hard:
                 add(valid, "INVALID", rng.choice(hard), s, o, "hard", "object", split)
             if (o, p, s) not in gold_obj:
-                rev = bvs.mark_pair(txt, lo, ls, all_labels)
+                rev = cl.mark_pair(txt, lo, ls, all_labels)
                 if rev is not None:
                     add(rev, "INVALID", p, o, s, "direction", "object", split)
             else:

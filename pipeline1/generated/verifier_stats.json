@@ -1,5 +1,5 @@
 {
-  "source": "qud_tiered_annotated.jsonl (100 texts, 70/15/15 split)",
+  "source": "qud_tiered_annotated.jsonl (300 texts, 70/15/15 split)",
   "total_rows": 1507,
   "label_distribution": {
     "VALID": 631,

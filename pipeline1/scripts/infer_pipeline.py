@@ -16,7 +16,7 @@ Install for the real models:
     python -m spacy download en_core_web_sm
 
 Usage:
-    python infer_pipeline.py --file ../data-input/val/story_300.txt
+    python infer_pipeline.py --file ../generated/qud_tiered_texts.txt
     python infer_pipeline.py --text "Otho gives the player the quest A Call to Arms."
     python infer_pipeline.py --file ... --use-gliner --use-glirel --model ../models/verifier/best_model
 """
