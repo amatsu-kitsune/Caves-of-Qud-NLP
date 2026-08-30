@@ -1,4 +1,14 @@
+
+
 # Ontology-Driven RDF Triple Extraction — Caves of Qud
+
+2107656 Christian Finazzi Git repo : the NLP project for AILAB Avola-Lezochè
+
+DISCLAIMER!!!!!!!!!!!!!!!!!!!!!!!!!!
+The Ontology is made by a human (me)
+The Pipeline, input txt stories and output benchmarks (graphs etc) are made by Artificial Intelligence. 
+
+AI AI AI!
 
 An information-extraction pipeline that populates a knowledge graph from natural
 language text, using an OWL ontology as its schema. A BERT-family model acts as a
