@@ -1,0 +1,10 @@
+alchemist fills the role of a non-boss Fighter.
+non-boss Fighter is held by Golem.
+alchemist works as a high-tier merchant.
+alchemist has reached level 30.
+Bethesda Susa shelters alchemist.
+Bethesda Susa is inhabited by Saad Amus.
+Mutated Human numbers Argyve among its kind.
+Mutated Human numbers alchemist among its kind.
+alchemist dwells in Bethesda Susa.
+alchemist has 175 HP.

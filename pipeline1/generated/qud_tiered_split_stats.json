@@ -1,0 +1,34 @@
+{
+  "source": "qud_tiered_annotated.jsonl",
+  "n_examples": 300,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "split_distribution": {
+    "train": 210,
+    "val": 45,
+    "test": 45
+  },
+  "split_by_tier": {
+    "train": {
+      "explicit": 53,
+      "implicit": 53,
+      "long_distance": 52,
+      "nested": 52
+    },
+    "val": {
+      "explicit": 11,
+      "implicit": 11,
+      "long_distance": 12,
+      "nested": 11
+    },
+    "test": {
+      "explicit": 11,
+      "implicit": 11,
+      "long_distance": 11,
+      "nested": 12
+    }
+  }
+}

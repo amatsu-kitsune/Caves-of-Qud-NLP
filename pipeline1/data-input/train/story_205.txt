@@ -1,0 +1,10 @@
+Argyve gives the player the quest A Canticle for Barathrum.
+Weirdwire Conduit... Eureka! yields Joppa Recoiler.
+Weirdwire Conduit... Eureka! is assigned by Argyve.
+Weirdwire Conduit... Eureka! takes place in Rust Wells.
+Joppa Recoiler has a weight of 1.
+Argyve entrusts the player with Weirdwire Conduit... Eureka!.
+Joppa Recoiler sells for 25 drams.
+Argyve acts as a low-tier merchant.
+Weirdwire Conduit... Eureka! has the player seek Copper Wire.
+Argyve is level 22.

@@ -1,0 +1,15 @@
+Tomb of the Eaters is assigned by Barathrum the Old.
+Barathrum the Old is a Urshiib by lineage.
+Eaters' Tomb houses Herodododicus.
+Eaters' Tomb sits at strata 0.
+Herodododicus dwells in Eaters' Tomb.
+Barathrum the Old entrusts the player with Pax Qlanq, I Presume?.
+Pax Qlanq, I Presume? is offered by Barathrum the Old.
+Tomb of the Eaters grants metamorphic polygel, and also occurs in Eaters' Tomb.
+Tomb of the Eaters follows Pax Qlanq, I Presume?.
+Herodododicus has 150 hitpoints.
+Tomb of the Eaters has the player seek Herodododicus.
+Pax Qlanq, I Presume? has the player seek Pax Qlanq.
+Eaters' Tomb hosts the quest Tomb of the Eaters.
+Herodododicus is the target of Tomb of the Eaters.
+Pax Qlanq, I Presume? follows A Call to Arms.

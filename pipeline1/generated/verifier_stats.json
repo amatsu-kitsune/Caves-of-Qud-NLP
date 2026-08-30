@@ -1,0 +1,40 @@
+{
+  "source": "qud_tiered_annotated.jsonl (100 texts, 70/15/15 split)",
+  "total_rows": 1507,
+  "label_distribution": {
+    "VALID": 631,
+    "INVALID": 876
+  },
+  "neg_type_distribution": {
+    "hard": 292,
+    "direction": 567,
+    "dr": 17
+  },
+  "rel_kind_distribution": {
+    "object": 1413,
+    "datatype": 94
+  },
+  "split_distribution": {
+    "train": 1042,
+    "val": 217,
+    "test": 248
+  },
+  "split_label": {
+    "train": {
+      "VALID": 441,
+      "INVALID": 601
+    },
+    "val": {
+      "VALID": 88,
+      "INVALID": 129
+    },
+    "test": {
+      "VALID": 102,
+      "INVALID": 146
+    }
+  },
+  "distinct_candidate_relations": 33,
+  "object_triple_marking_misses": 0,
+  "datatype_triple_marking_misses": 8,
+  "train_rows_purged_for_val_test_overlap": 0
+}

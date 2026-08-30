@@ -1,0 +1,1123 @@
+@prefix qud: <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+qud:eval_roberta_base_0 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_1 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_10 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_100 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_roberta_base_101 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_roberta_base_102 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_roberta_base_103 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_roberta_base_104 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Golem .
+
+qud:eval_roberta_base_105 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_roberta_base_106 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_roberta_base_107 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_roberta_base_108 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_109 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_11 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_roberta_base_110 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_111 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_112 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_113 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Argyve .
+
+qud:eval_roberta_base_114 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Argyve .
+
+qud:eval_roberta_base_115 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_roberta_base_116 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_117 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_118 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_119 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_12 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Joppa .
+
+qud:eval_roberta_base_120 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_121 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_122 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_123 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_roberta_base_124 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_roberta_base_125 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_roberta_base_126 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Joppa ;
+    rdf:predicate qud:spawnsIn ;
+    rdf:subject qud:Kun .
+
+qud:eval_roberta_base_127 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Scrapped_Waydroid ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_roberta_base_128 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Sparafucile_s_Carbine ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_roberta_base_129 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Golgotha ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_roberta_base_13 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_130 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_131 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_132 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_133 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_134 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_135 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_roberta_base_136 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_roberta_base_137 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:quantum_mote ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_roberta_base_138 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_roberta_base_139 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_roberta_base_14 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_140 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_roberta_base_141 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_roberta_base_142 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Rust_Wells .
+
+qud:eval_roberta_base_143 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_roberta_base_144 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:Sparafucile_s_Carbine .
+
+qud:eval_roberta_base_145 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Starformed_Ehalcodon .
+
+qud:eval_roberta_base_146 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Bethesda_Susa ;
+    rdf:predicate qud:locatedInPlace ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_roberta_base_147 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Herodododicus ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Tomb_of_the_Eaters .
+
+qud:eval_roberta_base_148 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_roberta_base_149 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_roberta_base_15 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_150 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_roberta_base_151 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_roberta_base_152 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Joppa_Recoiler ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_roberta_base_153 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:quantum_mote .
+
+qud:eval_roberta_base_16 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_roberta_base_17 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fungi ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_roberta_base_18 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_roberta_base_19 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mutated_Human ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_roberta_base_2 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_20 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fighter_Boss ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_roberta_base_21 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_roberta_base_22 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_roberta_base_23 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:The_Golem ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_roberta_base_24 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_roberta_base_25 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_roberta_base_26 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_roberta_base_27 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fighter_NonBoss ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:alchemist .
+
+qud:eval_roberta_base_28 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Trader_high ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:alchemist .
+
+qud:eval_roberta_base_29 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Bethesda_Susa ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:alchemist .
+
+qud:eval_roberta_base_3 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Sentient_Plant ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Asphodel_Earl_of_Omonporch .
+
+qud:eval_roberta_base_30 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_31 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_roberta_base_32 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_33 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_34 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_roberta_base_35 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_roberta_base_36 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Joppa ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_roberta_base_37 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Baetyl .
+
+qud:eval_roberta_base_38 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Fungi ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_39 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Robot ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_4 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Asphodel_Earl_of_Omonporch .
+
+qud:eval_roberta_base_40 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_41 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_42 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_43 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_44 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_45 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_46 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_47 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_48 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_49 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_5 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_50 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_51 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_52 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_53 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_54 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:alchemist ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Bethesda_Susa .
+
+qud:eval_roberta_base_55 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_56 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_57 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_58 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Fungi .
+
+qud:eval_roberta_base_59 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Fungi .
+
+qud:eval_roberta_base_6 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_roberta_base_60 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Girsh .
+
+qud:eval_roberta_base_61 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starformed_Ehalcodon ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Girsh .
+
+qud:eval_roberta_base_62 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_roberta_base_63 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_roberta_base_64 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Golgotha .
+
+qud:eval_roberta_base_65 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_66 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_67 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_68 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_69 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_7 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_70 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_71 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_72 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_73 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_74 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_roberta_base_75 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_76 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_77 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_78 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_79 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_roberta_base_8 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_roberta_base_80 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_roberta_base_81 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_roberta_base_82 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Mutated_Human .
+
+qud:eval_roberta_base_83 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Asphodel_Earl_of_Omonporch ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_roberta_base_84 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_roberta_base_85 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_roberta_base_86 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_roberta_base_87 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_roberta_base_88 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_roberta_base_89 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_roberta_base_9 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_roberta_base_90 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Rainbow_Wood .
+
+qud:eval_roberta_base_91 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Rainbow_Wood .
+
+qud:eval_roberta_base_92 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_roberta_base_93 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Reseph .
+
+qud:eval_roberta_base_94 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Reseph .
+
+qud:eval_roberta_base_95 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Asphodel_Earl_of_Omonporch ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Sentient_Plant .
+
+qud:eval_roberta_base_96 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_roberta_base_97 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_roberta_base_98 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_roberta_base_99 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:Rust_Wells qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Tomb_of_the_Eaters qud:involvesFinding qud:Herodododicus .
+
+qud:Golgotha qud:hostsQuest qud:More_Than_a_Willing_Spirit .
+
+qud:Mutated_Human qud:hasIndividual qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Sentient_Plant qud:hasIndividual qud:Asphodel_Earl_of_Omonporch .
+
+qud:Sparafucile_s_Carbine qud:isRewardFor qud:More_Than_a_Willing_Spirit .
+
+qud:Starformed_Ehalcodon qud:memberOf qud:Girsh .
+
+qud:The_Golem qud:requiresCompleting qud:Reclamation .
+
+qud:quantum_mote qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Baetyl qud:isHabitantOf qud:Temple_of_the_Rock .
+
+qud:Bethesda_Susa qud:hasInhabitant qud:alchemist .
+
+qud:Joppa qud:hasInhabitant qud:Argyve .
+
+qud:alchemist qud:hasRole qud:Fighter_NonBoss,
+        qud:Trader_high ;
+    qud:isHabitantOf qud:Bethesda_Susa .
+
+qud:Asphodel_Earl_of_Omonporch qud:hasRace qud:Sentient_Plant ;
+    qud:isHabitantOf qud:Omonporch .
+
+qud:Fungi qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Pax_Qlanq .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> qud:involvesFinding qud:Pax_Qlanq ;
+    qud:isGivenBy qud:Barathrum_the_Old ;
+    qud:rewardsWith qud:quantum_mote ;
+    qud:takesPlaceIn qud:Rainbow_Wood .
+
+qud:Sparafucile qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:memberOf qud:Barathrumites .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> qud:rewardsWith qud:Joppa_Recoiler .
+
+qud:Kun qud:dislikedBy qud:Girsh,
+        qud:Putus_Templar ;
+    qud:likedBy qud:Barathrumites ;
+    qud:spawnsIn qud:Joppa .
+
+qud:Pax_Qlanq qud:hasRace qud:Fungi ;
+    qud:isHabitantOf qud:Rainbow_Wood .
+
+qud:Rainbow_Wood qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Pax_Qlanq .
+
+qud:Reseph qud:isHabitantOf qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:Starfarers_Quay qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Reseph .
+
+qud:Temple_of_the_Rock qud:hasInhabitant qud:Baetyl,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:locatedInPlace qud:Bethesda_Susa .
+
+qud:Urshiib qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile .
+
+qud:Omonporch qud:hasInhabitant qud:Asphodel_Earl_of_Omonporch,
+        qud:Barathrum_the_Old,
+        qud:Reseph .
+
+qud:Phinae_Hoshaiah_High_Priest_of_the_Rock qud:hasRace qud:Mutated_Human ;
+    qud:hasRole qud:Fighter_Boss ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:likedBy qud:Mechanimists ;
+    qud:memberOf qud:Mechanimists .
+
+qud:We_Are_Starfreight qud:involvesFinding qud:Reseph ;
+    qud:isGivenBy qud:Barathrum_the_Old ;
+    qud:requiresCompleting qud:Reclamation ;
+    qud:takesPlaceIn qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:Reclamation qud:involvesFightWith qud:Girsh ;
+    qud:requiresCompleting qud:The_Golem,
+        qud:We_Are_Starfreight .
+
+qud:Argyve qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Joppa ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Putus_Templar qud:dislikes qud:Kun ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:The_Earl_of_Omonporch ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh .
+
+qud:Mechanimists qud:foughtIn qud:Decoding_the_Signal ;
+    qud:hasMember qud:Golem,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists .
+
+qud:The_Earl_of_Omonporch qud:involvesFightWith qud:Putus_Templar ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal .
+
+qud:Girsh qud:foughtIn qud:Reclamation ;
+    qud:hasMember qud:Starformed_Ehalcodon ;
+    qud:hates qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar .
+
+qud:More_Than_a_Willing_Spirit qud:involvesFinding qud:Scrapped_Waydroid ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal ;
+    qud:rewardsWith qud:Sparafucile_s_Carbine ;
+    qud:takesPlaceIn qud:Golgotha .
+
+qud:A_Call_to_Arms qud:involvesFightWith qud:Putus_Templar ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Otho qud:giveQuest qud:A_Call_to_Arms,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:isSearchTargetIn qud:A_Canticle_for_Barathrum ;
+    qud:memberOf qud:Barathrumites .
+
+qud:A_Canticle_for_Barathrum qud:involvesFinding qud:Otho ;
+    qud:isGivenBy qud:Argyve ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Decoding_the_Signal qud:involvesFinding qud:Baetyl ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Temple_of_the_Rock .
+
+qud:Grit_Gate qud:hasInhabitant qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:hostsQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:Reclamation,
+        qud:The_Earl_of_Omonporch,
+        qud:We_Are_Starfreight .
+
+qud:Barathrum_the_Old qud:giveQuest qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:hasRace qud:Fungi,
+        qud:Robot,
+        qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Rainbow_Wood,
+        qud:Starfarers_Quay ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Barathrumites qud:foughtIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Otho ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Argyve,
+        qud:Kun,
+        qud:Otho .
+

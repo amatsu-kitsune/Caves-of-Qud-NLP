@@ -1,0 +1,82 @@
+[
+  {
+    "label": "character",
+    "class_short": "Character",
+    "description": "Any sentient being in the world of Qud, from wandering monsters to named legends and the player's own avatar. Characters are told apart both by their nature, biological or mechanical, and by the part they play in the story, whether they are"
+  },
+  {
+    "label": "faction",
+    "class_short": "Faction",
+    "description": "An organized group of Qud such as a guild, religious order, tribe or species, toward which the player holds a numeric reputation. Factions love or hate other characters and factions, and those feelings decide who turns hostile on sight and "
+  },
+  {
+    "label": "fighter",
+    "class_short": "Fighter",
+    "description": "A combatant whose purpose is to fight. Some are recruitable NPCs, while others are unique bosses guarding a location or a quest objective; the Boss flag marks which is which. Bosses tend to carry the highest combat stats in their region."
+  },
+  {
+    "label": "item",
+    "class_short": "Item",
+    "description": "A tangible object that can be picked up, carried, traded or earned from a quest. Each is measured by its weight and by its commerce value, which in Qud is reckoned in drams of fresh water, the currency that underpins all trade."
+  },
+  {
+    "label": "mutant",
+    "class_short": "Mutant",
+    "description": "A living creature reshaped by the mutations that pervade Qud, including mutated humans, sentient plants and fungi. In place of cybernetics, mutants develop physical and mental powers that grow stronger as they level, setting them apart from"
+  },
+  {
+    "label": "npc",
+    "class_short": "NPC",
+    "description": "A non-player character run by the game. An NPC may dwell in a place, belong to one or more factions, take on a combat or merchant role, and hand out quests, acting as the world's source of trade, lore and missions."
+  },
+  {
+    "label": "organic",
+    "class_short": "Organic",
+    "description": "A flesh-and-blood being, as opposed to the machines. Organic creatures rely on biology, so they are open to mutation and to infection, and they react to poison, disease and bleeding in ways the robots never do."
+  },
+  {
+    "label": "place",
+    "class_short": "Place",
+    "description": "An explorable but unsettled location such as a ruined well, a tomb, a forest or a quay. Each lies at a certain depth below the surface and may shelter inhabitants and host quests, often guarding the dangers and rewards of the deep."
+  },
+  {
+    "label": "player character",
+    "class_short": "PlayerCharacter",
+    "description": "The avatar steered by the player through Qud. Their choices shape reputation, alliances and the eventual ending; everything from caste and mutations to the factions they court is theirs to decide."
+  },
+  {
+    "label": "quest",
+    "class_short": "Quest",
+    "description": "A story or side mission woven into the main plot. Quests chain together as prerequisites, unfold at particular places, may require finding items or people or fighting whole factions, and usually grant a reward on completion."
+  },
+  {
+    "label": "race",
+    "class_short": "Race",
+    "description": "The species or lineage a character belongs to, such as True Kin, urshiib or mollusk. Race shapes a creature's body and appearance and can set its starting mutations or its initial standing with the factions."
+  },
+  {
+    "label": "robot",
+    "class_short": "Robot",
+    "description": "The kind of mechanical creatures that walk Qud, untouched by biological mutation."
+  },
+  {
+    "label": "role",
+    "class_short": "Role",
+    "description": "The function an NPC fulfils in the world, either as a Fighter who does battle or as a Trader who deals in goods. A character's role carries its own details, such as whether a fighter is a boss or how rich a merchant's stock is."
+  },
+  {
+    "label": "settlement",
+    "class_short": "Settlement",
+    "description": "An inhabited village or outpost set at a given depth, with its own resident characters and the quests they host. Settlements are the hubs where the player talks, trades and takes on missions between forays into the wilds."
+  },
+  {
+    "label": "trader",
+    "class_short": "Trader",
+    "description": "A merchant who offers goods in exchange for water or barter. The Tier (low, mid or high) reflects how deep the merchant's purse runs and how rare and valuable the wares they keep in stock."
+  },
+  {
+    "label": "truekin",
+    "class_short": "Truekin",
+    "description": "The lineage of unmutated humans, the True Kin, whom stable genotype supports cybernetic implants. They are incapable of mutating."
+  }
+]

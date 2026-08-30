@@ -1,0 +1,300 @@
+qt_001	explicit	Argyve is a member of the Barathrumites.
+qt_002	explicit	Otho lives in Grit Gate.
+qt_003	explicit	Barathrum the Old has the race Urshiib.
+qt_004	explicit	The quest Weirdwire Conduit... Eureka! is given by Argyve.
+qt_005	explicit	Argyve gives the quest A Canticle for Barathrum.
+qt_006	explicit	Bethesda Susa contains the settlement Temple of the Rock.
+qt_007	explicit	The Temple of the Rock is located in Bethesda Susa.
+qt_008	explicit	Joppa has Argyve as an inhabitant.
+qt_009	explicit	The Putus Templar hate the Barathrumites.
+qt_010	explicit	The Barathrumites like Kun.
+qt_011	explicit	The quest A Call to Arms takes place in Grit Gate.
+qt_012	explicit	Grit Gate hosts the quest The Golem.
+qt_013	explicit	The quest Reclamation involves a fight with the Girsh.
+qt_014	explicit	The Putus Templar fought in A Call to Arms.
+qt_015	explicit	The quest We Are Starfreight involves finding Reseph.
+qt_016	explicit	Reseph is a search target in the quest We Are Starfreight.
+qt_017	explicit	The Joppa Recoiler is a reward for Weirdwire Conduit... Eureka!.
+qt_018	explicit	The quest Pax Qlanq, I Presume? rewards the player with a quantum mote.
+qt_019	explicit	Kun spawns in Joppa.
+qt_020	explicit	The quest Reclamation requires completing The Golem.
+qt_021	explicit	Phinae Hoshaiah High Priest of the Rock is a member of the Mechanimists.
+qt_022	explicit	The Mutated Human race has Argyve as an individual.
+qt_023	explicit	Argyve has the role of low-tier merchant.
+qt_024	explicit	The Putus Templar dislike Kun.
+qt_025	explicit	Sparafucile is a member of the Barathrumites.
+qt_026	implicit	Otho calls Grit Gate home.
+qt_027	implicit	Barathrum the Old, an Urshiib by blood, still stands among the Barathrumites.
+qt_028	implicit	The Putus Templar can't abide the Barathrumites.
+qt_029	implicit	Argyve will saddle you with a job he calls A Canticle for Barathrum.
+qt_030	implicit	Wrap up The Golem before you so much as touch Reclamation.
+qt_031	implicit	Crack Weirdwire Conduit... Eureka! and a Joppa Recoiler is your prize.
+qt_032	implicit	The Girsh clashed with heroes in the thick of Reclamation.
+qt_033	implicit	The Barathrumites hold Kun in fond regard.
+qt_034	implicit	Slog of the Cloaca, festering at the bottom of Golgotha, is a fearsome boss-tier fighter.
+qt_035	implicit	Asphodel Earl of Omonporch, a Sentient Plant, makes his home at Omonporch.
+qt_036	implicit	Pax Qlanq, a Fungi, dwells in the Rainbow Wood.
+qt_037	implicit	Reseph preaches at Starfarers' Quay and answers to the Seraphic Covenant.
+qt_038	implicit	Decoding the Signal pits you against the Mechanimists.
+qt_039	implicit	Phinae Hoshaiah High Priest of the Rock belongs to the Mechanimists.
+qt_040	implicit	Copper Wire is what Weirdwire Conduit... Eureka! sends you hunting for.
+qt_041	implicit	Otho hands the player The Earl of Omonporch.
+qt_042	implicit	Saad Amus, who haunts Bethesda Susa, is a boss-tier fighter.
+qt_043	implicit	Joppa is where you'll find Argyve.
+qt_044	implicit	The Villagers of Joppa bear an old grudge against the Girsh.
+qt_045	implicit	Sparafucile, an Urshiib, stands with the Barathrumites.
+qt_046	implicit	The mid-tier merchant role is filled by Sparafucile.
+qt_047	implicit	Deep in Golgotha, the trial More Than a Willing Spirit plays out.
+qt_048	implicit	Baetyl is favored by the Mechanimists.
+qt_049	implicit	Far beneath the ash, the hidden Temple of the Rock nests inside Bethesda Susa.
+qt_050	implicit	Kun opens their eyes for the first time in Joppa.
+qt_051	long_distance	Argyve, hunched over the cluttered workbench where he has muttered at half-built gadgets for the better part of a lifetime, finally presses on the newcomer the job he calls Weirdwire Conduit... Eureka!.
+qt_052	long_distance	Barathrum the Old, who gathered the faithful in secret in the canyon hideout for generations before any wanderer ever stumbled upon its gates, is counted among the Barathrumites.
+qt_053	long_distance	Tomb of the Eaters, a perilous quest that sends adventurers through sultans' reliquaries and into the deepest mysteries of Qud's buried history, unfolds from first step to last within Eaters' Tomb.
+qt_054	long_distance	Kun, waking with no memory of the road, surrounded by the smell of salt and reed while unfamiliar faces turn to watch from the leaning huts, first opens his eyes in Joppa.
+qt_055	long_distance	Barathrum the Old, more than the crawling horrors of the deep and more than any other impurity their patrols have put to the sword across the generations, is despised by the Putus Templar.
+qt_056	long_distance	The Earl of Omonporch, a quest that opens with nothing but rumor and drifting hearsay yet ends, if the wanderer's luck holds, in genuine discovery, sends the player to find Asphodel Earl of Omonporch.
+qt_057	long_distance	Reclamation, no errand for the half-prepared, keeps its doors shut and its grim work refusing to begin until the older matter has been seen through, and that older matter is The Golem.
+qt_058	long_distance	The Joppa Recoiler, salvage that looks like junk at a glance yet is prized dearly by seasoned wanderers who know what the trinket can really do, is handed out as the reward for solving Weirdwire Conduit... Eureka!.
+qt_059	long_distance	Joppa, the low quiet settlement in the southern marsh whose reed-ringed huts see travelers drift through year after year while only a rare few put down roots, counts among its people the old tinker Argyve.
+qt_060	long_distance	Barathrum the Old, who has answered to many names across his unnaturally long years, scholar and exile and heretic among them, is in blood and bone an Urshiib.
+qt_061	long_distance	Bethesda Susa, a ruin far off past ash and older ruin that almost no outsider has ever laid eyes upon and fewer still have walked out of, keeps hidden in its buried depths the Temple of the Rock.
+qt_062	long_distance	The Girsh, demons that clawed their way up from below to become a blight upon every living thing that heroes have ever sworn to protect, were fought in the bloody reckoning called Reclamation.
+qt_063	long_distance	Barathrum the Old, fretting for many seasons over the friend who wandered into the bright tangle of the wood and pressing the question on anyone who would listen, at last hands the matter over as the task called Pax Qlanq, I Presume?.
+qt_064	long_distance	The Scrapped Waydroid, a ruined half-sunk heap long forgotten by the world yet wanted badly enough that someone will pay to send you digging after it, is the thing you are sent to recover in More Than a Willing Spirit.
+qt_065	long_distance	Otho, who keeps the old rites and older grudges of his order alive and says little to strangers until they have earned a measure of his trust, holds out to the worthy a sober charge he calls A Call to Arms.
+qt_066	long_distance	Baetyl, that strange engine sheltered among relics and machine-spirits by a faith that reveres the works of metal above all flesh and keeps its saints close, is held in special favor by the Mechanimists.
+qt_067	long_distance	Golgotha, where a thousand years of refuse has been packed down into the dark and few of those who climb in ever manage to climb back out, plays host to the grim trial known as More Than a Willing Spirit.
+qt_068	long_distance	Reseph, who speaks to the kneeling faithful in a voice like grinding iron and who was once, perhaps, only a machine among machines, now serves as a sworn member of the Seraphic Covenant.
+qt_069	long_distance	The alchemist, patient and unhurried in a back room far from the noise of the world, mixing acrid draughts for people who come seeking cures and leave carrying riddles, makes a home within Bethesda Susa.
+qt_070	long_distance	Otho, after long years of labor in tunnels that began as a bolt-hole gouged into the canyon wall and grew into workshop, sanctuary and fortress against the world above, simply calls Grit Gate home.
+qt_071	long_distance	The metamorphic polygel, a shimmering ooze that rewrites whatever it touches and is coveted by adventurers past all reason and all good sense, comes at the very end as the reward for completing Tomb of the Eaters.
+qt_072	long_distance	The Villagers of Joppa, who keep long memories and few powerful friends while minding their own marsh and asking little of any outsider, will never forgive one foe, and that foe is the demon-brood called the Girsh.
+qt_073	long_distance	Decoding the Signal, one link in a longer chain of labor that the elders warn will lead you nowhere at all until the older work is safely behind you, stays locked until More Than a Willing Spirit is done.
+qt_074	long_distance	Starformed Ehalcodon, which descended in a fall of cold light so vast and wrong against the sky that the lesser horrors of the deep gathered at once to name it kin, is in the end one of the Girsh.
+qt_075	long_distance	Herodododicus, who rattles off riddles to anyone who pauses in the dark and has waited there delighting in his own cleverness for a very long time, has become the very thing that Tomb of the Eaters sends you out to seek.
+qt_076	nested	In his cramped workshop at Joppa, Argyve - a Mutated Human and low-tier merchant sworn to the Barathrumites - sets the player on Weirdwire Conduit... Eureka!, the puzzle that sends them hunting a coil of Copper Wire and pays out, at its end, with a Joppa Recoiler.
+qt_077	nested	Barathrum the Old, the Urshiib elder who dwells in Grit Gate and leads the Barathrumites, hands down Tomb of the Eaters - a descent into the Eaters' Tomb that cannot start until 'Pax Qlanq, I Presume?' is done and ends with a dollop of metamorphic polygel.
+qt_078	nested	Otho, the Urshiib tinker holed up in Grit Gate among the Barathrumites, throws three jobs your way at once - A Call to Arms, Decoding the Signal and The Earl of Omonporch - and is himself the quarry you must track down in A Canticle for Barathrum.
+qt_079	nested	Down in the bright snarl of the Rainbow Wood lurks Pax Qlanq, a Fungi creature of level 30 and 300 HP and the very thing 'Pax Qlanq, I Presume?' sends you to find; Barathrum the Old sets that task, it unfolds in those same woods, and it pays out a quantum mote.
+qt_080	nested	The Temple of the Rock, tucked inside Bethesda Susa, shelters Phinae Hoshaiah High Priest of the Rock - a Mutated Human boss-tier fighter who keeps faith with the Mechanimists - alongside the strange machine Baetyl.
+qt_081	nested	Reseph, the towering Robot preached over at Starfarers' Quay - a level-100 colossus with 4000 HP - is sworn to the Seraphic Covenant yet adored by the Mechanimists; recovering him is the heart of We Are Starfreight, a quest Barathrum the Old assigns.
+qt_082	nested	Slog of the Cloaca, the Mollusk boss-tier fighter festering at the bottom of Golgotha, shares that pit with the trial More Than a Willing Spirit, which Otho sets, sends you after a Scrapped Waydroid, and rewards with Sparafucile's Carbine.
+qt_083	nested	Asphodel Earl of Omonporch, a Sentient Plant who holds court at Omonporch, is the prize of The Earl of Omonporch - a hunt Otho hands out that plays out in that very place and only opens once Decoding the Signal is finished.
+qt_084	nested	Kun, the wanderer who first wakes in Joppa, is beloved of the Barathrumites but marked for death by both the Girsh and the Putus Templar.
+qt_085	nested	A Canticle for Barathrum, set in Grit Gate and handed over by Argyve, sends the player to find Otho and cannot even begin until Weirdwire Conduit... Eureka! is behind them.
+qt_086	nested	Sparafucile, the Urshiib who works Grit Gate as a mid-tier merchant, runs with the Barathrumites; Sparafucile's Carbine is the payoff for seeing More Than a Willing Spirit through.
+qt_087	nested	Saad Amus, a level-35 boss-tier fighter with 350 HP, keeps to Bethesda Susa, sharing that buried place with the alchemist - a Mutated Human of level 30 and 175 HP who works as a high-tier merchant and also brawls as a non-boss fighter. Boss-rank fighters carry the boss flag set true, the non-boss role false, and Bethesda Susa itself hosts Decoding the Signal.
+qt_088	nested	Decoding the Signal, which Otho assigns, drives the player to dig the robot Baetyl out of the Temple of the Rock, throws them against the Mechanimists, and must wait on More Than a Willing Spirit.
+qt_089	nested	The Golem, a quest Barathrum the Old entrusts to you from Grit Gate, hinges on recovering neutron flux and stays sealed until Tomb of the Eaters is complete.
+qt_090	nested	Reclamation, run out of Omonporch and handed down by Barathrum the Old, hurls you against the Girsh, the Putus Templar and the monstrous Starformed Ehalcodon, and cannot begin before The Golem is done.
+qt_091	nested	Among the Barathrumites stand Argyve and Otho, both liked by the order, and Barathrum the Old himself - the Urshiib elder of Grit Gate - while Golem, a non-boss fighter, rounds out their number.
+qt_092	nested	The Girsh, who hate the Barathrumites, the Mechanimists, the Putus Templar and the Villagers of Joppa alike, claim the fallen titan Starformed Ehalcodon as a member and once fought in Reclamation.
+qt_093	nested	Grit Gate, three strata down, shelters Barathrum the Old, Otho, Sparafucile and Golem, and out of its tunnels come three trials at once - A Call to Arms, A Canticle for Barathrum and The Golem.
+qt_094	nested	Phinae Hoshaiah High Priest of the Rock, a Mutated Human of level 20 and 225 HP who lives at the Temple of the Rock and fights as a boss-tier fighter, belongs to the Mechanimists and is held dear by them; that same cult once clashed in Decoding the Signal.
+qt_095	nested	Weirdwire Conduit... Eureka!, the puzzle Argyve sets at Rust Wells, has you turn up a length of Copper Wire - weightless and worth nothing - and rewards you with a Joppa Recoiler, worth 25 and weighing 1, once it's solved.
+qt_096	nested	We Are Starfreight, Barathrum the Old's commission, ranges across both Omonporch and Starfarers' Quay in search of the robot Reseph and only unlocks after Reclamation.
+qt_097	nested	The Seraphic Covenant counts two among its own - Barathrum the Old, who also keeps faith with the Barathrumites, and the robot Reseph - even as the Putus Templar nurse hatred for the Barathrumites, the Girsh and the Mechanimists.
+qt_098	nested	A Call to Arms, set in Grit Gate and given by Otho, pits the player against the Putus Templar - who themselves fought in it - and only opens after The Earl of Omonporch is wrapped up.
+qt_099	nested	Starformed Ehalcodon - a Girsh Nephilim of level 60 and 12000 HP that fights as a boss-tier fighter and runs with the Girsh - is one of the foes Reclamation throws at you, and it played its part in that same battle.
+qt_100	nested	The Urshiib bloodline runs through three of the Barathrumites - Barathrum the Old, Otho and Sparafucile - while the Mutated Human strain claims Argyve, the alchemist and Phinae Hoshaiah High Priest of the Rock.
+qt_101	explicit	Bethesda Susa contains Temple of the Rock.
+qt_102	explicit	Kun is disliked by Putus Templar.
+qt_103	explicit	The Putus Templar dislikes Kun.
+qt_104	explicit	The Putus Templar is fought in Reclamation.
+qt_105	explicit	Otho gives the player the quest Decoding the Signal.
+qt_106	explicit	Urshiib counts Sparafucile among its members.
+qt_107	explicit	Golgotha is home to Slog of the Cloaca.
+qt_108	explicit	The Barathrumites counts Golem as a member.
+qt_109	explicit	Starformed Ehalcodon is of the Girsh Nephilim race.
+qt_110	explicit	The alchemist serves as a non-boss fighter.
+qt_111	explicit	The Villagers of Joppa hates Girsh.
+qt_112	explicit	Rainbow Wood hosts the quest Pax Qlanq, I Presume?.
+qt_113	explicit	Decoding the Signal pits the player against Mechanimists.
+qt_114	explicit	Decoding the Signal requires finding Baetyl.
+qt_115	explicit	The Golem is given by Barathrum the Old.
+qt_116	explicit	Golem lives in Grit Gate.
+qt_117	explicit	Sparafucile's Carbine is the reward for More Than a Willing Spirit.
+qt_118	explicit	The boss-tier fighter is the role of Saad Amus.
+qt_119	explicit	The neutron flux is sought in The Golem.
+qt_120	explicit	Reseph is liked by Mechanimists.
+qt_121	explicit	The Barathrumites likes Argyve.
+qt_122	explicit	Temple of the Rock is located in Bethesda Susa.
+qt_123	explicit	Sparafucile is a member of Barathrumites.
+qt_124	explicit	We Are Starfreight requires completing Reclamation.
+qt_125	explicit	Pax Qlanq, I Presume? rewards the player with quantum mote.
+qt_126	explicit	Kun starts in Joppa.
+qt_127	explicit	The Golem takes place in Grit Gate.
+qt_128	explicit	Barathrum the Old is disliked by Putus Templar.
+qt_129	explicit	The Girsh dislikes Kun.
+qt_130	explicit	The Mechanimists is fought in Decoding the Signal.
+qt_131	explicit	Barathrum the Old gives the player the quest The Golem.
+qt_132	explicit	Bethesda Susa is home to Saad Amus.
+qt_133	explicit	The Seraphic Covenant counts Barathrum the Old as a member.
+qt_134	explicit	Phinae Hoshaiah High Priest of the Rock is of the Mutated Human race.
+qt_135	explicit	The Putus Templar hates Mechanimists.
+qt_136	explicit	Grit Gate hosts the quest A Call to Arms.
+qt_137	explicit	Reclamation pits the player against Starformed Ehalcodon.
+qt_138	explicit	Pax Qlanq, I Presume? requires finding Pax Qlanq.
+qt_139	explicit	Weirdwire Conduit... Eureka! is given by Argyve.
+qt_140	explicit	The quantum mote is the reward for Pax Qlanq, I Presume?.
+qt_141	explicit	The boss-tier fighter is the role of Phinae Hoshaiah High Priest of the Rock.
+qt_142	explicit	Baetyl is sought in Decoding the Signal.
+qt_143	explicit	Kun is liked by Barathrumites.
+qt_144	explicit	The Barathrumites likes Kun.
+qt_145	explicit	Starformed Ehalcodon is a member of Girsh.
+qt_146	explicit	A Canticle for Barathrum requires completing Weirdwire Conduit... Eureka!.
+qt_147	explicit	Tomb of the Eaters rewards the player with metamorphic polygel.
+qt_148	explicit	Weirdwire Conduit... Eureka! takes place in Rust Wells.
+qt_149	explicit	The Girsh is fought in Reclamation.
+qt_150	explicit	Argyve gives the player the quest Weirdwire Conduit... Eureka!.
+qt_151	implicit	Kun is marked for death by Putus Templar.
+qt_152	implicit	The Putus Templar looks down on Kun and stands as an enemy in Reclamation.
+qt_153	implicit	Golgotha shelters Slog of the Cloaca and is the setting of More Than a Willing Spirit.
+qt_154	implicit	Sentient Plant numbers Asphodel Earl of Omonporch among its kind.
+qt_155	implicit	Baetyl enjoys the favor of Mechanimists and resides in Temple of the Rock.
+qt_156	implicit	The Barathrumites claims Barathrum the Old as one of its own.
+qt_157	implicit	Otho offers the quest A Call to Arms and is the target of A Canticle for Barathrum.
+qt_158	implicit	Saad Amus is known around the settlements as a boss-tier fighter.
+qt_159	implicit	A Call to Arms calls for battle with Putus Templar and is offered by Otho.
+qt_160	implicit	Deep in Rust Wells, the trial Weirdwire Conduit... Eureka! plays out.
+qt_161	implicit	Reseph is the target of We Are Starfreight and enjoys the favor of Mechanimists.
+qt_162	implicit	Tomb of the Eaters sends you hunting for Herodododicus.
+qt_163	implicit	The Putus Templar is hostile to Barathrumites and is battled during A Call to Arms.
+qt_164	implicit	The alchemist is holed up in Bethesda Susa.
+qt_165	implicit	Mutated Human includes Argyve and numbers alchemist among its kind.
+qt_166	implicit	The boss-tier fighter is the part played by Saad Amus.
+qt_167	implicit	Eaters' Tomb shelters Herodododicus and stages Tomb of the Eaters.
+qt_168	implicit	Reseph enjoys the special favor of Mechanimists.
+qt_169	implicit	More Than a Willing Spirit grants Sparafucile's Carbine and asks the player to find Scrapped Waydroid.
+qt_170	implicit	Temple of the Rock nests inside Bethesda Susa.
+qt_171	implicit	A Call to Arms follows The Earl of Omonporch and is assigned by Otho.
+qt_172	implicit	Wrap up More Than a Willing Spirit before you so much as touch Decoding the Signal.
+qt_173	implicit	The Seraphic Covenant includes Barathrum the Old in its ranks and includes Reseph in its ranks.
+qt_174	implicit	Kun first opens their eyes in Joppa.
+qt_175	implicit	Urshiib includes Barathrum the Old and includes Sparafucile.
+qt_176	implicit	Bethesda Susa keeps Temple of the Rock somewhere in its depths.
+qt_177	implicit	Tomb of the Eaters asks the player to find Herodododicus and grants metamorphic polygel.
+qt_178	implicit	The Girsh wants Kun gone from the world.
+qt_179	implicit	Sparafucile makes a home in Grit Gate and is a Urshiib by lineage.
+qt_180	implicit	Barathrum the Old throws Tomb of the Eaters your way.
+qt_181	implicit	Tomb of the Eaters awards metamorphic polygel and comes after Pax Qlanq, I Presume?.
+qt_182	implicit	Starfarers' Quay is where you'll find Reseph.
+qt_183	implicit	Decoding the Signal has the player seek Baetyl and follows More Than a Willing Spirit.
+qt_184	implicit	The alchemist is Mutated Human in blood and bone.
+qt_185	implicit	The Mechanimists stands as an enemy in Decoding the Signal and favors Reseph.
+qt_186	implicit	The Girsh bears an old grudge against Mechanimists.
+qt_187	implicit	Reseph is the target of We Are Starfreight and dwells in Starfarers' Quay.
+qt_188	implicit	Reclamation throws you against Girsh.
+qt_189	implicit	Starfarers' Quay shelters Reseph and stages We Are Starfreight.
+qt_190	implicit	The Golem comes down from Barathrum the Old.
+qt_191	implicit	The alchemist acts as a non-boss fighter and acts as a high-tier merchant.
+qt_192	implicit	The quantum mote is the payoff for seeing Pax Qlanq, I Presume? through.
+qt_193	implicit	Baetyl is the quarry you must track down in Decoding the Signal.
+qt_194	implicit	Omonporch stages Reclamation and shelters Asphodel Earl of Omonporch.
+qt_195	implicit	The Mechanimists looks kindly on Reseph.
+qt_196	implicit	Argyve is favored by Barathrumites and is part of Barathrumites.
+qt_197	implicit	Phinae Hoshaiah High Priest of the Rock stands with Mechanimists.
+qt_198	implicit	The Seraphic Covenant includes Barathrum the Old in its ranks and numbers Reseph among its members.
+qt_199	implicit	Crack More Than a Willing Spirit and Sparafucile's Carbine is your prize.
+qt_200	implicit	Phinae Hoshaiah High Priest of the Rock belongs to Mechanimists and belongs to the Mutated Human race.
+qt_201	long_distance	Bethesda Susa, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, contains Temple of the Rock.
+qt_202	long_distance	Kun, the subject of more idle campfire arguments among wanderers than nearly any other matter one could care to name, is held in low regard by Girsh.
+qt_203	long_distance	The Putus Templar, the subject of more idle campfire arguments among wanderers than nearly any other matter one could care to name, looks down on Kun.
+qt_204	long_distance	Starformed Ehalcodon, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, stands as an enemy in Reclamation.
+qt_205	long_distance	Otho, carrying far more weight among the survivors of the salt flats than any newcomer could reasonably be expected to guess, gives the player the quest A Call to Arms.
+qt_206	long_distance	Urshiib, carrying far more weight among the survivors of the salt flats than any newcomer could reasonably be expected to guess, counts Otho among its members.
+qt_207	long_distance	Grit Gate, after more years of dust and rumor and slow forgetting than any of the village elders can honestly count, is home to Barathrum the Old.
+qt_208	long_distance	The Seraphic Covenant, known to every water-baron and caravan hand who has ever hauled goods across the blistered stretches of the deep desert, counts Barathrum the Old as a member.
+qt_209	long_distance	Asphodel Earl of Omonporch, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, is a Sentient Plant by lineage.
+qt_210	long_distance	The alchemist, regarded by the cautious as a matter best left alone and by the curious as a puzzle worth a lifetime, serves as a non-boss fighter.
+qt_211	long_distance	The Girsh, regarded by the cautious as a matter best left alone and by the curious as a puzzle worth a lifetime, is hostile to Putus Templar.
+qt_212	long_distance	Rust Wells, after more years of dust and rumor and slow forgetting than any of the village elders can honestly count, stages Weirdwire Conduit... Eureka!.
+qt_213	long_distance	Reclamation, remembered in a dozen contradictory stories that agree on almost nothing except the broad shape of what happened, requires fighting Starformed Ehalcodon.
+qt_214	long_distance	We Are Starfreight, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, asks the player to find Reseph.
+qt_215	long_distance	Reclamation, the subject of more idle campfire arguments among wanderers than nearly any other matter one could care to name, is assigned by Barathrum the Old.
+qt_216	long_distance	Barathrum the Old, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, makes a home in Grit Gate.
+qt_217	long_distance	Sparafucile's Carbine, familiar to anyone who has spent even a single season trading news and water along the roads of the wastes, is granted by More Than a Willing Spirit.
+qt_218	long_distance	The boss-tier fighter, after more years of dust and rumor and slow forgetting than any of the village elders can honestly count, is the part played by Starformed Ehalcodon.
+qt_219	long_distance	Herodododicus, remembered in a dozen contradictory stories that agree on almost nothing except the broad shape of what happened, is sought in Tomb of the Eaters.
+qt_220	long_distance	Kun, wrapped in enough rumor and half-truth that separating the fact from the legend has become a pastime of its own, is liked by Barathrumites.
+qt_221	long_distance	The Barathrumites, regarded by the cautious as a matter best left alone and by the curious as a puzzle worth a lifetime, favors Argyve.
+qt_222	long_distance	Temple of the Rock, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, lies within Bethesda Susa.
+qt_223	long_distance	Otho, familiar to anyone who has spent even a single season trading news and water along the roads of the wastes, belongs to Barathrumites.
+qt_224	long_distance	The Earl of Omonporch, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, follows Decoding the Signal.
+qt_225	long_distance	Tomb of the Eaters, trusted by some and feared by others yet impossible to leave out of any honest telling of these lands, awards metamorphic polygel.
+qt_226	long_distance	Kun, spoken of in the low careful voice that people reserve for things they respect and do not entirely understand, starts in Joppa.
+qt_227	long_distance	More Than a Willing Spirit, after more years of dust and rumor and slow forgetting than any of the village elders can honestly count, takes place in Golgotha.
+qt_228	long_distance	Bethesda Susa, after more years of dust and rumor and slow forgetting than any of the village elders can honestly count, encloses Temple of the Rock.
+qt_229	long_distance	Kun, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, is held in low regard by Girsh.
+qt_230	long_distance	The Girsh, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, dislikes Kun.
+qt_231	long_distance	The Putus Templar, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, is fought in Reclamation.
+qt_232	long_distance	Argyve, regarded by the cautious as a matter best left alone and by the curious as a puzzle worth a lifetime, offers the quest A Canticle for Barathrum.
+qt_233	long_distance	Mollusk, known to every water-baron and caravan hand who has ever hauled goods across the blistered stretches of the deep desert, numbers Slog of the Cloaca among its kind.
+qt_234	long_distance	Bethesda Susa, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, is home to alchemist.
+qt_235	long_distance	The Seraphic Covenant, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, numbers Reseph among its members.
+qt_236	long_distance	Phinae Hoshaiah High Priest of the Rock, spoken of in the low careful voice that people reserve for things they respect and do not entirely understand, is a Mutated Human by lineage.
+qt_237	long_distance	Saad Amus, familiar to anyone who has spent even a single season trading news and water along the roads of the wastes, fills the role of a boss-tier fighter.
+qt_238	long_distance	The Girsh, remembered in a dozen contradictory stories that agree on almost nothing except the broad shape of what happened, hates Mechanimists.
+qt_239	long_distance	Temple of the Rock, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, hosts the quest Decoding the Signal.
+qt_240	long_distance	Decoding the Signal, familiar to anyone who has spent even a single season trading news and water along the roads of the wastes, requires fighting Mechanimists.
+qt_241	long_distance	The Golem, carrying far more weight among the survivors of the salt flats than any newcomer could reasonably be expected to guess, asks the player to find neutron flux.
+qt_242	long_distance	The Earl of Omonporch, trusted by some and feared by others yet impossible to leave out of any honest telling of these lands, is offered by Otho.
+qt_243	long_distance	Asphodel Earl of Omonporch, the subject of more idle campfire arguments among wanderers than nearly any other matter one could care to name, makes a home in Omonporch.
+qt_244	long_distance	Sparafucile's Carbine, mentioned in the old histories only in passing and always with a caution that borders on outright superstition, is granted by More Than a Willing Spirit.
+qt_245	long_distance	The boss-tier fighter, described by the chroniclers of the wastes at tiresome length in accounts that almost nobody alive has bothered to read, is the role of Starformed Ehalcodon.
+qt_246	long_distance	Reseph, carrying far more weight among the survivors of the salt flats than any newcomer could reasonably be expected to guess, must be found in We Are Starfreight.
+qt_247	long_distance	Phinae Hoshaiah High Priest of the Rock, carrying far more weight among the survivors of the salt flats than any newcomer could reasonably be expected to guess, is favored by Mechanimists.
+qt_248	long_distance	The Barathrumites, wrapped in enough rumor and half-truth that separating the fact from the legend has become a pastime of its own, favors Otho.
+qt_249	long_distance	Temple of the Rock, trusted by some and feared by others yet impossible to leave out of any honest telling of these lands, sits inside Bethesda Susa.
+qt_250	long_distance	Barathrum the Old, familiar to anyone who has spent even a single season trading news and water along the roads of the wastes, is a member of Barathrumites.
+qt_251	nested	A Call to Arms, which is unlocked by The Earl of Omonporch, is given by Otho, requires fighting Putus Templar and takes place in Grit Gate.
+qt_252	nested	A Canticle for Barathrum, which is set in Grit Gate, follows Weirdwire Conduit... Eureka!, is given by Argyve and asks the player to find Otho.
+qt_253	nested	Argyve, who is of the Mutated Human race, entrusts the player with Weirdwire Conduit... Eureka!, dwells in Joppa, enjoys the favor of Barathrumites and fills the role of a low-tier merchant.
+qt_254	nested	Asphodel Earl of Omonporch, who is the target of The Earl of Omonporch, is a Sentient Plant by lineage and resides in Omonporch.
+qt_255	nested	Baetyl, who is the target of Decoding the Signal, makes a home in Temple of the Rock, enjoys the favor of Mechanimists, carries 2000 HP and stands at level 25.
+qt_256	nested	Barathrum the Old, who makes a home in Grit Gate, assigns the quest The Golem, assigns the quest Pax Qlanq, I Presume?, is a member of Seraphic Covenant and belongs to Barathrumites.
+qt_257	nested	The Barathrumites, which includes Argyve in its ranks, includes Sparafucile in its ranks and despises Girsh.
+qt_258	nested	Bethesda Susa, which is home to Saad Amus, is the setting of Decoding the Signal, contains Temple of the Rock, is home to alchemist and lies at strata 0.
+qt_259	nested	Decoding the Signal, which occurs in Temple of the Rock, requires finding Baetyl and follows More Than a Willing Spirit.
+qt_260	nested	The boss-tier fighter, which is held by Starformed Ehalcodon, is held by Saad Amus and is the part played by Slog of the Cloaca.
+qt_261	nested	The Girsh, which is hostile to Mechanimists, is hostile to Villagers of Joppa, numbers Starformed Ehalcodon among its members, is battled during Reclamation and is hostile to Putus Templar.
+qt_262	nested	Golem, who belongs to Barathrumites, resides in Grit Gate, acts as a non-boss fighter, has 350 HP and is level 50.
+qt_263	nested	Grit Gate, which is inhabited by Sparafucile, stages A Call to Arms, stages The Golem, is inhabited by Otho and lies at strata 3.
+qt_264	nested	Kun, who is disliked by Girsh, first appears in Joppa, enjoys the favor of Barathrumites and is held in low regard by Putus Templar.
+qt_265	nested	The Mechanimists, which holds Reseph in esteem, is fought in Decoding the Signal and counts Phinae Hoshaiah High Priest of the Rock as a member.
+qt_266	nested	More Than a Willing Spirit, which is given by Otho, comes after A Canticle for Barathrum and unfolds in Golgotha.
+qt_267	nested	Mutated Human, which numbers alchemist among its kind, counts Phinae Hoshaiah High Priest of the Rock among its members and counts Argyve among its members.
+qt_268	nested	Omonporch, which harbors Reclamation, harbors The Earl of Omonporch, is inhabited by Asphodel Earl of Omonporch, is the setting of We Are Starfreight and lies at strata 0.
+qt_269	nested	Otho, who is a member of Barathrumites, must be found in A Canticle for Barathrum, is of the Urshiib race, gives the player the quest More Than a Willing Spirit, has 95 HP and has reached level 28.
+qt_270	nested	Pax Qlanq, who is a Fungi by lineage, resides in Rainbow Wood, is the target of Pax Qlanq, I Presume?, has 300 hitpoints and is level 30.
+qt_271	nested	Pax Qlanq, I Presume?, which grants quantum mote, asks the player to find Pax Qlanq, is given by Barathrum the Old and is set in Rainbow Wood.
+qt_272	nested	Phinae Hoshaiah High Priest of the Rock, who serves as a boss-tier fighter, is a member of Mechanimists, belongs to the Mutated Human race, enjoys the favor of Mechanimists, carries 225 HP and is level 20.
+qt_273	nested	The Putus Templar, which is hostile to Mechanimists, is battled during A Call to Arms, is fought in Reclamation, despises Barathrumites and looks down on Kun.
+qt_274	nested	Reclamation, which requires fighting Putus Templar, comes from Barathrum the Old, calls for battle with Starformed Ehalcodon and requires completing The Golem.
+qt_275	nested	Reseph, who lives in Starfarers' Quay, belongs to Seraphic Covenant, is favored by Mechanimists, has reached level 100 and carries 4000 HP.
+qt_276	nested	Slog of the Cloaca, who lives in Golgotha, fills the role of a boss-tier fighter, is of the Mollusk race, carries 150 HP and has reached level 17.
+qt_277	nested	Sparafucile, who belongs to Barathrumites, makes a home in Grit Gate, works as a mid-tier merchant, belongs to the Urshiib race, has reached level 24 and has 95 hitpoints.
+qt_278	nested	Starformed Ehalcodon, who is a Girsh Nephilim by lineage, is a member of Girsh, is battled during Reclamation, stands at level 60 and carries 12000 HP.
+qt_279	nested	Temple of the Rock, which stages Decoding the Signal, is inhabited by Phinae Hoshaiah High Priest of the Rock, is inhabited by Baetyl and lies at strata 16.
+qt_280	nested	The Earl of Omonporch, which unfolds in Omonporch, is given by Otho and requires completing Decoding the Signal.
+qt_281	nested	The Golem, which requires completing Tomb of the Eaters, sends the player to locate neutron flux and is offered by Barathrum the Old.
+qt_282	nested	Tomb of the Eaters, which awards metamorphic polygel, occurs in Eaters' Tomb, is assigned by Barathrum the Old, follows Pax Qlanq, I Presume? and sends the player to locate Herodododicus.
+qt_283	nested	Urshiib, which numbers Otho among its kind, counts Barathrum the Old among its members and counts Sparafucile among its members.
+qt_284	nested	We Are Starfreight, which is set in Starfarers' Quay, is assigned by Barathrum the Old, is unlocked by Reclamation, asks the player to find Reseph and is set in Omonporch.
+qt_285	nested	Weirdwire Conduit... Eureka!, which takes place in Rust Wells, rewards the player with Joppa Recoiler and requires finding Copper Wire.
+qt_286	nested	The alchemist, who is a Mutated Human by lineage, lives in Bethesda Susa, serves as a non-boss fighter, is level 30 and carries 175 HP.
+qt_287	nested	A Call to Arms, which occurs in Grit Gate, requires fighting Putus Templar, is unlocked by The Earl of Omonporch and is offered by Otho.
+qt_288	nested	A Canticle for Barathrum, which requires finding Otho, takes place in Grit Gate and comes from Argyve.
+qt_289	nested	Argyve, who offers the quest A Canticle for Barathrum, belongs to the Mutated Human race, is liked by Barathrumites, works as a low-tier merchant, carries 150 HP and stands at level 22.
+qt_290	nested	Asphodel Earl of Omonporch, who resides in Omonporch, is of the Sentient Plant race, must be found in The Earl of Omonporch, stands at level 30 and has 500 HP.
+qt_291	nested	Baetyl, who enjoys the favor of Mechanimists, must be found in Decoding the Signal, lives in Temple of the Rock, stands at level 25 and has 2000 HP.
+qt_292	nested	Barathrum the Old, who belongs to the Urshiib race, offers the quest We Are Starfreight, entrusts the player with Reclamation and dwells in Grit Gate.
+qt_293	nested	The Barathrumites, which numbers Golem among its members, favors Otho, favors Argyve and is hostile to Mechanimists.
+qt_294	nested	Bethesda Susa, which stages Decoding the Signal, is home to alchemist, houses Saad Amus and is found at strata 0.
+qt_295	nested	Decoding the Signal, which requires finding Baetyl, is set in Bethesda Susa, takes place in Temple of the Rock and is assigned by Otho.
+qt_296	nested	The boss-tier fighter, which is held by Saad Amus, is held by Slog of the Cloaca and is the part played by Starformed Ehalcodon.
+qt_297	nested	The Girsh, which scorns Kun, is at war with Mechanimists, includes Starformed Ehalcodon in its ranks and is at war with Barathrumites.
+qt_298	nested	Golem, who makes a home in Grit Gate, serves as a non-boss fighter, is part of Barathrumites, carries 350 HP and stands at level 50.
+qt_299	nested	Grit Gate, which shelters Otho, hosts the quest A Call to Arms, is home to Golem, harbors A Canticle for Barathrum and is inhabited by Sparafucile.
+qt_300	nested	Kun, who first appears in Joppa, is disliked by Girsh, is favored by Barathrumites and is disliked by Putus Templar.

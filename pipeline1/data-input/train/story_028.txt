@@ -1,0 +1,10 @@
+Omonporch shelters Asphodel Earl of Omonporch.
+We Are Starfreight is assigned by Barathrum the Old.
+Reclamation requires fighting Starformed Ehalcodon.
+Reclamation is assigned by Barathrum the Old.
+We Are Starfreight takes place in Starfarers' Quay.
+Omonporch stages We Are Starfreight.
+Omonporch sits at strata 0.
+We Are Starfreight comes after Reclamation.
+Omonporch stages Reclamation.
+We Are Starfreight has the player seek Reseph.

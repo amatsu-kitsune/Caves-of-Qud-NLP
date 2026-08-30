@@ -1,0 +1,15 @@
+# Trained verifier weights (2.5 GB, individual files exceed GitHub's 100 MB limit).
+# Rebuild them with:  python scripts/bench_train_all.py
+pipeline1/models/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

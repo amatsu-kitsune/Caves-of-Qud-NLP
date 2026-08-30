@@ -1,0 +1,10 @@
+Argyve lives in Joppa.
+Argyve is of the Mutated Human race.
+Joppa houses Argyve.
+Argyve has 150 hitpoints.
+Argyve gives the player the quest Weirdwire Conduit... Eureka!.
+Argyve entrusts the player with A Canticle for Barathrum.
+Argyve fills the role of a low-tier merchant.
+low-tier merchant is the part played by Argyve.
+Joppa lies at strata 0.
+Mutated Human counts alchemist among its members.

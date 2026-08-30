@@ -1,0 +1,10 @@
+Eaters' Tomb is found at strata 0.
+metamorphic polygel is worth 600 drams.
+Tomb of the Eaters sends the player to locate Herodododicus.
+Herodododicus is the target of Tomb of the Eaters.
+Herodododicus has 150 HP.
+Tomb of the Eaters unfolds in Eaters' Tomb.
+Eaters' Tomb stages Tomb of the Eaters.
+Tomb of the Eaters is assigned by Barathrum the Old.
+Tomb of the Eaters requires completing Pax Qlanq, I Presume?.
+Tomb of the Eaters grants metamorphic polygel.

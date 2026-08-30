@@ -1,0 +1,10 @@
+Slog of the Cloaca has 150 hitpoints.
+Otho stands at level 28.
+More Than a Willing Spirit awards Sparafucile's Carbine.
+More Than a Willing Spirit sends the player to locate Scrapped Waydroid.
+Slog of the Cloaca lives in Golgotha.
+Golgotha is inhabited by Slog of the Cloaca.
+Golgotha is found at strata 0.
+More Than a Willing Spirit is assigned by Otho.
+More Than a Willing Spirit takes place in Golgotha.
+Slog of the Cloaca fills the role of a boss-tier Fighter.

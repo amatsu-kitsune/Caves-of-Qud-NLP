@@ -1,0 +1,420 @@
+@prefix qud: <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#> .
+
+qud:Fighter_Boss a qud:Fighter ;
+    qud:isRoleOf qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Fighter_NonBoss a qud:Fighter ;
+    qud:isRoleOf qud:alchemist .
+
+qud:Golgotha a qud:Place ;
+    qud:hostsQuest qud:More_Than_a_Willing_Spirit .
+
+qud:Joppa a qud:Settlement ;
+    qud:hasInhabitant qud:Argyve .
+
+qud:Mutated_Human a qud:Race ;
+    qud:hasIndividual qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Rust_Wells a qud:Place ;
+    qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Sentient_Plant a qud:Race ;
+    qud:hasIndividual qud:Asphodel_Earl_of_Omonporch .
+
+qud:The_Golem a qud:Quest ;
+    qud:requiresCompleting qud:Reclamation .
+
+qud:Trader_high a qud:Trader ;
+    qud:isRoleOf qud:alchemist .
+
+qud:Asphodel_Earl_of_Omonporch a qud:Mutant,
+        qud:NPC ;
+    qud:hasRace qud:Sentient_Plant ;
+    qud:isHabitantOf qud:Omonporch .
+
+qud:Bethesda_Susa a qud:Place ;
+    qud:containsSettlement qud:Temple_of_the_Rock ;
+    qud:hasInhabitant qud:alchemist .
+
+qud:Fungi a qud:Race ;
+    qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Pax_Qlanq .
+
+qud:Herodododicus a qud:NPC,
+        qud:Robot ;
+    qud:giveQuest qud:Tomb_of_the_Eaters ;
+    qud:isSearchTargetIn qud:Tomb_of_the_Eaters .
+
+qud:Joppa_Recoiler a qud:Item ;
+    qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Scrapped_Waydroid a qud:Item ;
+    qud:isRewardFor qud:More_Than_a_Willing_Spirit ;
+    qud:isSearchTargetIn qud:More_Than_a_Willing_Spirit .
+
+qud:Sparafucile_s_Carbine a qud:Item ;
+    qud:isRewardFor qud:More_Than_a_Willing_Spirit ;
+    qud:isSearchTargetIn qud:More_Than_a_Willing_Spirit .
+
+qud:Tomb_of_the_Eaters a qud:Quest ;
+    qud:involvesFinding qud:Herodododicus ;
+    qud:isGivenBy qud:Herodododicus .
+
+qud:quantum_mote a qud:Item ;
+    qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Rainbow_Wood a qud:Place ;
+    qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Pax_Qlanq ;
+    qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Starformed_Ehalcodon a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Girsh ;
+    qud:likedBy qud:Girsh ;
+    qud:memberOf qud:Girsh .
+
+qud:Urshiib a qud:Race ;
+    qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile .
+
+qud:alchemist a qud:Mutant,
+        qud:NPC ;
+    qud:hasRole qud:Fighter_NonBoss,
+        qud:Trader_high ;
+    qud:isHabitantOf qud:Bethesda_Susa .
+
+qud:Pax_Qlanq a qud:Mutant,
+        qud:NPC ;
+    qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    qud:hasRace qud:Fungi ;
+    qud:isHabitantOf qud:Rainbow_Wood ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Robot a qud:Race ;
+    qud:hasIndividual qud:Barathrum_the_Old .
+
+qud:Starfarers_Quay a qud:Place ;
+    qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:hostsQuest qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+qud:Baetyl a qud:NPC,
+        qud:Robot ;
+    qud:giveQuest qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:isSearchTargetIn qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit .
+
+qud:Omonporch a qud:Place ;
+    qud:hasInhabitant qud:Asphodel_Earl_of_Omonporch,
+        qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:hostsQuest qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+qud:Sparafucile a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Barathrumites ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Temple_of_the_Rock a qud:Settlement ;
+    qud:hasInhabitant qud:Baetyl,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:hostsQuest qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit ;
+    qud:locatedInPlace qud:Bethesda_Susa .
+
+qud:Golem a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:Kun a qud:PlayerCharacter,
+        qud:Truekin ;
+    qud:dislikedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar ;
+    qud:likedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar .
+
+qud:Reseph a qud:NPC,
+        qud:Robot ;
+    qud:giveQuest qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:isHabitantOf qud:Omonporch,
+        qud:Starfarers_Quay ;
+    qud:isSearchTargetIn qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> a qud:Quest ;
+    qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Pax_Qlanq,
+        qud:quantum_mote ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Pax_Qlanq ;
+    qud:rewardsWith qud:quantum_mote ;
+    qud:takesPlaceIn qud:Rainbow_Wood .
+
+qud:A_Call_to_Arms a qud:Quest ;
+    qud:involvesFightWith qud:Barathrumites,
+        qud:Putus_Templar ;
+    qud:involvesFinding qud:Otho ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Phinae_Hoshaiah_High_Priest_of_the_Rock a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Mechanimists ;
+    qud:giveQuest qud:Decoding_the_Signal ;
+    qud:hasRace qud:Mutated_Human ;
+    qud:hasRole qud:Fighter_Boss ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:isSearchTargetIn qud:Decoding_the_Signal ;
+    qud:likedBy qud:Mechanimists ;
+    qud:memberOf qud:Mechanimists .
+
+qud:The_Earl_of_Omonporch a qud:Quest ;
+    qud:involvesFightWith qud:Barathrumites,
+        qud:Putus_Templar ;
+    qud:involvesFinding qud:Otho ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:We_Are_Starfreight a qud:Quest ;
+    qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:requiresCompleting qud:Reclamation ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:Girsh a qud:Faction ;
+    qud:dislikes qud:Kun,
+        qud:Starformed_Ehalcodon ;
+    qud:foughtIn qud:Reclamation ;
+    qud:hasMember qud:Starformed_Ehalcodon ;
+    qud:hates qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Kun,
+        qud:Starformed_Ehalcodon .
+
+qud:Putus_Templar a qud:Faction ;
+    qud:dislikes qud:Kun,
+        qud:Otho ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Otho ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh ;
+    qud:likes qud:Kun,
+        qud:Otho .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> a qud:Quest ;
+    qud:involvesFinding qud:Argyve,
+        qud:Joppa_Recoiler,
+        qud:Otho ;
+    qud:isGivenBy qud:Argyve,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum ;
+    qud:rewardsWith qud:Joppa_Recoiler ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Rust_Wells .
+
+qud:Reclamation a qud:Quest ;
+    qud:involvesFightWith qud:Girsh ;
+    qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:requiresCompleting qud:The_Golem,
+        qud:We_Are_Starfreight ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:A_Canticle_for_Barathrum a qud:Quest ;
+    qud:involvesFightWith qud:Barathrumites ;
+    qud:involvesFinding qud:Argyve,
+        qud:Otho ;
+    qud:isGivenBy qud:Argyve,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Grit_Gate a qud:Settlement ;
+    qud:hasInhabitant qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:hostsQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:Reclamation,
+        qud:The_Earl_of_Omonporch,
+        qud:We_Are_Starfreight,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Argyve a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:giveQuest qud:A_Canticle_for_Barathrum,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Joppa ;
+    qud:isSearchTargetIn qud:A_Canticle_for_Barathrum,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:More_Than_a_Willing_Spirit a qud:Quest ;
+    qud:involvesFightWith qud:Barathrumites ;
+    qud:involvesFinding qud:Baetyl,
+        qud:Otho,
+        qud:Scrapped_Waydroid,
+        qud:Sparafucile_s_Carbine ;
+    qud:isGivenBy qud:Baetyl,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal ;
+    qud:rewardsWith qud:Scrapped_Waydroid,
+        qud:Sparafucile_s_Carbine ;
+    qud:takesPlaceIn qud:Golgotha,
+        qud:Temple_of_the_Rock .
+
+qud:Decoding_the_Signal a qud:Quest ;
+    qud:involvesFightWith qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:involvesFinding qud:Baetyl,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:isGivenBy qud:Baetyl,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Temple_of_the_Rock .
+
+qud:Barathrum_the_Old a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Barathrumites ;
+    qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?>,
+        qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:hasRace qud:Fungi,
+        qud:Robot,
+        qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Rainbow_Wood,
+        qud:Starfarers_Quay ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?>,
+        qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Mechanimists a qud:Faction ;
+    qud:dislikes qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:foughtIn qud:Decoding_the_Signal ;
+    qud:hasMember qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists ;
+    qud:likes qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Otho a qud:Mutant,
+        qud:NPC ;
+    qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:giveQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:isSearchTargetIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar .
+
+qud:Barathrumites a qud:Faction ;
+    qud:dislikes qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Kun,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Kun,
+        qud:Otho,
+        qud:Sparafucile .
+

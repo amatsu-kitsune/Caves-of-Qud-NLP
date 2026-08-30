@@ -1,0 +1,2188 @@
+@prefix qud: <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+qud:eval_passthrough_0 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_1 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_10 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_100 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_101 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_102 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Fungi ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_103 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Robot ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_104 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_105 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_106 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_107 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_108 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_109 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_11 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Sentient_Plant ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Asphodel_Earl_of_Omonporch .
+
+qud:eval_passthrough_110 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_111 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_112 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_113 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_114 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_115 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_116 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_117 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_118 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_119 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_12 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Asphodel_Earl_of_Omonporch .
+
+qud:eval_passthrough_120 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_121 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_122 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_123 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_124 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_125 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_126 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_127 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_128 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_129 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_13 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_130 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_131 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_132 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:containsSettlement ;
+    rdf:subject qud:Bethesda_Susa .
+
+qud:eval_passthrough_133 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:alchemist ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Bethesda_Susa .
+
+qud:eval_passthrough_134 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_135 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_136 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_137 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_138 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_139 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_14 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_140 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_141 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_142 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_143 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_144 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_145 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:isRoleOf ;
+    rdf:subject qud:Fighter_Boss .
+
+qud:eval_passthrough_146 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:alchemist ;
+    rdf:predicate qud:isRoleOf ;
+    rdf:subject qud:Fighter_NonBoss .
+
+qud:eval_passthrough_147 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Fungi .
+
+qud:eval_passthrough_148 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Fungi .
+
+qud:eval_passthrough_149 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_15 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_150 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starformed_Ehalcodon ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_151 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_152 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starformed_Ehalcodon ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_153 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_154 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_155 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_156 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starformed_Ehalcodon ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_157 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_158 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_159 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_16 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_160 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_161 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_162 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Golem .
+
+qud:eval_passthrough_163 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Golgotha .
+
+qud:eval_passthrough_164 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_165 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_166 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_167 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_168 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_169 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_17 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Barathrum_the_Old .
+
+qud:eval_passthrough_170 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_171 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_172 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_173 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_174 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Grit_Gate .
+
+qud:eval_passthrough_175 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Tomb_of_the_Eaters ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Herodododicus .
+
+qud:eval_passthrough_176 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Tomb_of_the_Eaters ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Herodododicus .
+
+qud:eval_passthrough_177 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:Joppa_Recoiler .
+
+qud:eval_passthrough_178 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Joppa_Recoiler .
+
+qud:eval_passthrough_179 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_18 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_180 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_181 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_182 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_183 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_184 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_185 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_186 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_187 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_188 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_189 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_19 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_190 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_191 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_192 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_193 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_194 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Golem ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_195 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_196 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_197 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_198 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_199 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_2 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_20 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_200 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile_s_Carbine ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_201 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_202 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_203 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_204 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_205 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Scrapped_Waydroid ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_206 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_207 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Mutated_Human .
+
+qud:eval_passthrough_208 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Asphodel_Earl_of_Omonporch ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_passthrough_209 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_passthrough_21 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_210 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_passthrough_211 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_passthrough_212 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Omonporch .
+
+qud:eval_passthrough_213 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_214 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_215 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_216 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_217 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_218 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_219 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_22 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Barathrumites .
+
+qud:eval_passthrough_220 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_221 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_222 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_223 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_224 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_225 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_226 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_227 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_228 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_passthrough_229 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_passthrough_23 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_230 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_231 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:quantum_mote ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_232 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_233 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_234 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_235 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_236 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_237 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_238 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_239 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasMember ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_24 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_240 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_241 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_242 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_243 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:likes ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_244 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Rainbow_Wood .
+
+qud:eval_passthrough_245 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Rainbow_Wood .
+
+qud:eval_passthrough_246 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Rainbow_Wood .
+
+qud:eval_passthrough_247 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_248 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_249 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_25 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Decoding_the_Signal .
+
+qud:eval_passthrough_250 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_251 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_252 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_253 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_254 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_255 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_256 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_257 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_258 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_259 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_26 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:hates ;
+    rdf:subject qud:Girsh .
+
+qud:eval_passthrough_260 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Reseph .
+
+qud:eval_passthrough_261 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Robot .
+
+qud:eval_passthrough_262 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:Scrapped_Waydroid .
+
+qud:eval_passthrough_263 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Scrapped_Waydroid .
+
+qud:eval_passthrough_264 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Asphodel_Earl_of_Omonporch ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Sentient_Plant .
+
+qud:eval_passthrough_265 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_passthrough_266 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_passthrough_267 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Sparafucile_s_Carbine .
+
+qud:eval_passthrough_268 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_passthrough_269 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_passthrough_27 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Joppa .
+
+qud:eval_passthrough_270 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_passthrough_271 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:We_Are_Starfreight ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Starfarers_Quay .
+
+qud:eval_passthrough_272 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Starformed_Ehalcodon .
+
+qud:eval_passthrough_273 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Starformed_Ehalcodon .
+
+qud:eval_passthrough_274 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Baetyl ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_passthrough_275 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    rdf:predicate qud:hasInhabitant ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_passthrough_276 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_passthrough_277 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_passthrough_278 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_279 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_28 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_280 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_281 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_282 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_283 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_284 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_285 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:The_Earl_of_Omonporch .
+
+qud:eval_passthrough_286 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:The_Golem .
+
+qud:eval_passthrough_287 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Herodododicus ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:Tomb_of_the_Eaters .
+
+qud:eval_passthrough_288 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:alchemist ;
+    rdf:predicate qud:isRoleOf ;
+    rdf:subject qud:Trader_high .
+
+qud:eval_passthrough_289 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_passthrough_29 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Putus_Templar ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_290 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_passthrough_291 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Sparafucile ;
+    rdf:predicate qud:hasIndividual ;
+    rdf:subject qud:Urshiib .
+
+qud:eval_passthrough_292 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_293 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_294 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_295 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_296 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Joppa_Recoiler ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_297 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_298 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_299 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_3 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_30 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_300 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_301 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_302 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Rust_Wells ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_303 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:quantum_mote .
+
+qud:eval_passthrough_304 a rdf:Statement ;
+    qud:evalStatus "FN" ;
+    rdf:object qud:Joppa ;
+    rdf:predicate qud:spawnsIn ;
+    rdf:subject qud:Kun .
+
+qud:eval_passthrough_31 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:foughtIn ;
+    rdf:subject qud:Mechanimists .
+
+qud:eval_passthrough_32 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Scrapped_Waydroid ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_33 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Sparafucile_s_Carbine ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_34 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Golgotha ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:More_Than_a_Willing_Spirit .
+
+qud:eval_passthrough_35 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_36 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_37 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_38 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_39 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_4 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_40 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_41 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_42 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Otho .
+
+qud:eval_passthrough_43 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fungi ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_passthrough_44 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Pax_Qlanq .
+
+qud:eval_passthrough_45 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Pax_Qlanq ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_46 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_47 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:quantum_mote ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_48 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Rainbow_Wood ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:eval_passthrough_49 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mutated_Human ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_5 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_50 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fighter_Boss ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_51 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_52 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_53 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:eval_passthrough_54 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Kun ;
+    rdf:predicate qud:dislikes ;
+    rdf:subject qud:Putus_Templar .
+
+qud:eval_passthrough_55 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_56 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:The_Golem ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:Reclamation .
+
+qud:eval_passthrough_57 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:hostsQuest ;
+    rdf:subject qud:Rust_Wells .
+
+qud:eval_passthrough_58 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Urshiib ;
+    rdf:predicate qud:hasRace ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_passthrough_59 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_passthrough_6 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_60 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Sparafucile .
+
+qud:eval_passthrough_61 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:Sparafucile_s_Carbine .
+
+qud:eval_passthrough_62 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Girsh ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Starformed_Ehalcodon .
+
+qud:eval_passthrough_63 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Bethesda_Susa ;
+    rdf:predicate qud:locatedInPlace ;
+    rdf:subject qud:Temple_of_the_Rock .
+
+qud:eval_passthrough_64 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Herodododicus ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:Tomb_of_the_Eaters .
+
+qud:eval_passthrough_65 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Reseph ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_66 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrum_the_Old ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_67 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Reclamation ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_68 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Omonporch ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_69 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Starfarers_Quay ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:We_Are_Starfreight .
+
+qud:eval_passthrough_7 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:takesPlaceIn ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_70 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Joppa_Recoiler ;
+    rdf:predicate qud:rewardsWith ;
+    rdf:subject <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:eval_passthrough_71 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Fighter_NonBoss ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:alchemist .
+
+qud:eval_passthrough_72 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Trader_high ;
+    rdf:predicate qud:hasRole ;
+    rdf:subject qud:alchemist .
+
+qud:eval_passthrough_73 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Bethesda_Susa ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:alchemist .
+
+qud:eval_passthrough_74 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    rdf:predicate qud:isRewardFor ;
+    rdf:subject qud:quantum_mote .
+
+qud:eval_passthrough_75 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_76 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_77 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_78 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Call_to_Arms .
+
+qud:eval_passthrough_79 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:involvesFightWith ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_8 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_80 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Argyve ;
+    rdf:predicate qud:involvesFinding ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_81 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Otho ;
+    rdf:predicate qud:isGivenBy ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_82 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Call_to_Arms ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_83 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_84 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_85 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:The_Earl_of_Omonporch ;
+    rdf:predicate qud:requiresCompleting ;
+    rdf:subject qud:A_Canticle_for_Barathrum .
+
+qud:eval_passthrough_86 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_87 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:dislikedBy ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_88 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_89 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Grit_Gate ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_9 a rdf:Statement ;
+    qud:evalStatus "TP" ;
+    rdf:object qud:Barathrumites ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_90 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Joppa ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_91 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:A_Canticle_for_Barathrum ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_92 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_93 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:likedBy ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_94 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Mechanimists ;
+    rdf:predicate qud:memberOf ;
+    rdf:subject qud:Argyve .
+
+qud:eval_passthrough_95 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Baetyl .
+
+qud:eval_passthrough_96 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:giveQuest ;
+    rdf:subject qud:Baetyl .
+
+qud:eval_passthrough_97 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Temple_of_the_Rock ;
+    rdf:predicate qud:isHabitantOf ;
+    rdf:subject qud:Baetyl .
+
+qud:eval_passthrough_98 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:Decoding_the_Signal ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Baetyl .
+
+qud:eval_passthrough_99 a rdf:Statement ;
+    qud:evalStatus "FP" ;
+    rdf:object qud:More_Than_a_Willing_Spirit ;
+    rdf:predicate qud:isSearchTargetIn ;
+    rdf:subject qud:Baetyl .
+
+qud:Fighter_Boss qud:isRoleOf qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Fighter_NonBoss qud:isRoleOf qud:alchemist .
+
+qud:Golgotha qud:hostsQuest qud:More_Than_a_Willing_Spirit .
+
+qud:Mutated_Human qud:hasIndividual qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Robot qud:hasIndividual qud:Barathrum_the_Old .
+
+qud:Rust_Wells qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Sentient_Plant qud:hasIndividual qud:Asphodel_Earl_of_Omonporch .
+
+qud:The_Golem qud:requiresCompleting qud:Reclamation .
+
+qud:Trader_high qud:isRoleOf qud:alchemist .
+
+qud:Joppa qud:hasInhabitant qud:Argyve .
+
+qud:Asphodel_Earl_of_Omonporch qud:hasRace qud:Sentient_Plant ;
+    qud:isHabitantOf qud:Omonporch .
+
+qud:Bethesda_Susa qud:containsSettlement qud:Temple_of_the_Rock ;
+    qud:hasInhabitant qud:alchemist .
+
+qud:Fungi qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Pax_Qlanq .
+
+qud:Herodododicus qud:giveQuest qud:Tomb_of_the_Eaters ;
+    qud:isSearchTargetIn qud:Tomb_of_the_Eaters .
+
+qud:Joppa_Recoiler qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Scrapped_Waydroid qud:isRewardFor qud:More_Than_a_Willing_Spirit ;
+    qud:isSearchTargetIn qud:More_Than_a_Willing_Spirit .
+
+qud:Sparafucile_s_Carbine qud:isRewardFor qud:More_Than_a_Willing_Spirit ;
+    qud:isSearchTargetIn qud:More_Than_a_Willing_Spirit .
+
+qud:Tomb_of_the_Eaters qud:involvesFinding qud:Herodododicus ;
+    qud:isGivenBy qud:Herodododicus .
+
+qud:quantum_mote qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Rainbow_Wood qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Pax_Qlanq ;
+    qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Starformed_Ehalcodon qud:dislikedBy qud:Girsh ;
+    qud:likedBy qud:Girsh ;
+    qud:memberOf qud:Girsh .
+
+qud:Urshiib qud:hasIndividual qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile .
+
+qud:alchemist qud:hasRole qud:Fighter_NonBoss,
+        qud:Trader_high ;
+    qud:isHabitantOf qud:Bethesda_Susa .
+
+qud:Pax_Qlanq qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    qud:hasRace qud:Fungi ;
+    qud:isHabitantOf qud:Rainbow_Wood ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Starfarers_Quay qud:hasInhabitant qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:hostsQuest qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+qud:Baetyl qud:giveQuest qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:isSearchTargetIn qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit .
+
+qud:Omonporch qud:hasInhabitant qud:Asphodel_Earl_of_Omonporch,
+        qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:hostsQuest qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+qud:Sparafucile qud:dislikedBy qud:Barathrumites ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Temple_of_the_Rock qud:hasInhabitant qud:Baetyl,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:hostsQuest qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit ;
+    qud:locatedInPlace qud:Bethesda_Susa .
+
+qud:Golem qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:Reseph qud:giveQuest qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:isHabitantOf qud:Omonporch,
+        qud:Starfarers_Quay ;
+    qud:isSearchTargetIn qud:Reclamation,
+        qud:We_Are_Starfreight .
+
+qud:Kun qud:dislikedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar ;
+    qud:likedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar ;
+    qud:spawnsIn qud:Joppa .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Pax_Qlanq,
+        qud:quantum_mote ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Pax_Qlanq ;
+    qud:rewardsWith qud:quantum_mote ;
+    qud:takesPlaceIn qud:Rainbow_Wood .
+
+qud:A_Call_to_Arms qud:involvesFightWith qud:Barathrumites,
+        qud:Putus_Templar ;
+    qud:involvesFinding qud:Otho ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Phinae_Hoshaiah_High_Priest_of_the_Rock qud:dislikedBy qud:Mechanimists ;
+    qud:giveQuest qud:Decoding_the_Signal ;
+    qud:hasRace qud:Mutated_Human ;
+    qud:hasRole qud:Fighter_Boss ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:isSearchTargetIn qud:Decoding_the_Signal ;
+    qud:likedBy qud:Mechanimists ;
+    qud:memberOf qud:Mechanimists .
+
+qud:The_Earl_of_Omonporch qud:involvesFightWith qud:Barathrumites,
+        qud:Putus_Templar ;
+    qud:involvesFinding qud:Otho ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:We_Are_Starfreight qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:requiresCompleting qud:Reclamation ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:Girsh qud:dislikes qud:Kun,
+        qud:Starformed_Ehalcodon ;
+    qud:foughtIn qud:Reclamation ;
+    qud:hasMember qud:Starformed_Ehalcodon ;
+    qud:hates qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Kun,
+        qud:Starformed_Ehalcodon .
+
+qud:Putus_Templar qud:dislikes qud:Kun,
+        qud:Otho ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Otho ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh ;
+    qud:likes qud:Kun,
+        qud:Otho .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> qud:involvesFinding qud:Argyve,
+        qud:Joppa_Recoiler,
+        qud:Otho ;
+    qud:isGivenBy qud:Argyve,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum ;
+    qud:rewardsWith qud:Joppa_Recoiler ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Rust_Wells .
+
+qud:Reclamation qud:involvesFightWith qud:Girsh ;
+    qud:involvesFinding qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:isGivenBy qud:Barathrum_the_Old,
+        qud:Reseph ;
+    qud:requiresCompleting qud:The_Golem,
+        qud:We_Are_Starfreight ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:A_Canticle_for_Barathrum qud:involvesFightWith qud:Barathrumites ;
+    qud:involvesFinding qud:Argyve,
+        qud:Otho ;
+    qud:isGivenBy qud:Argyve,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:Grit_Gate qud:hasInhabitant qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:hostsQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:Reclamation,
+        qud:The_Earl_of_Omonporch,
+        qud:We_Are_Starfreight,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Argyve qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:giveQuest qud:A_Canticle_for_Barathrum,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Joppa ;
+    qud:isSearchTargetIn qud:A_Canticle_for_Barathrum,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:More_Than_a_Willing_Spirit qud:involvesFightWith qud:Barathrumites ;
+    qud:involvesFinding qud:Baetyl,
+        qud:Otho,
+        qud:Scrapped_Waydroid,
+        qud:Sparafucile_s_Carbine ;
+    qud:isGivenBy qud:Baetyl,
+        qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal ;
+    qud:rewardsWith qud:Scrapped_Waydroid,
+        qud:Sparafucile_s_Carbine ;
+    qud:takesPlaceIn qud:Golgotha,
+        qud:Temple_of_the_Rock .
+
+qud:Decoding_the_Signal qud:involvesFightWith qud:Barathrumites,
+        qud:Mechanimists ;
+    qud:involvesFinding qud:Baetyl,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:isGivenBy qud:Baetyl,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate,
+        qud:Temple_of_the_Rock .
+
+qud:Barathrum_the_Old qud:dislikedBy qud:Barathrumites ;
+    qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?>,
+        qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:hasRace qud:Fungi,
+        qud:Robot,
+        qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate,
+        qud:Omonporch,
+        qud:Rainbow_Wood,
+        qud:Starfarers_Quay ;
+    qud:isSearchTargetIn <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?>,
+        qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Mechanimists qud:dislikes qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:foughtIn qud:Decoding_the_Signal ;
+    qud:hasMember qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists ;
+    qud:likes qud:Argyve,
+        qud:Golem,
+        qud:Otho,
+        qud:Phinae_Hoshaiah_High_Priest_of_the_Rock .
+
+qud:Otho qud:dislikedBy qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:giveQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:isSearchTargetIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:likedBy qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar .
+
+qud:Barathrumites qud:dislikes qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Kun,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Otho,
+        qud:Sparafucile ;
+    qud:hates qud:Barathrumites,
+        qud:Girsh,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Argyve,
+        qud:Barathrum_the_Old,
+        qud:Golem,
+        qud:Kun,
+        qud:Otho,
+        qud:Sparafucile .
+

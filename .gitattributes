@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.owl text eol=lf
+*.ttl text eol=lf
+*.png binary

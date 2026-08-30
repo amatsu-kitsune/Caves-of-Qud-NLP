@@ -1,0 +1,10 @@
+Copper Wire has a weight of 0.
+Copper Wire is the target of Weirdwire Conduit... Eureka!.
+Weirdwire Conduit... Eureka! is offered by Argyve.
+Weirdwire Conduit... Eureka! requires finding Copper Wire.
+Weirdwire Conduit... Eureka! is set in Rust Wells.
+Argyve has 150 HP.
+Argyve acts as a low-tier merchant.
+Argyve stands at level 22.
+Argyve is part of Barathrumites.
+Argyve entrusts the player with Weirdwire Conduit... Eureka!.

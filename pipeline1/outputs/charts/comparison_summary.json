@@ -1,0 +1,51 @@
+{
+  "t5_base": {
+    "params_M": 223,
+    "test_accuracy": 0.9315,
+    "test_macro_f1": 0.9293,
+    "valid_recall": 0.9216,
+    "e2e_f1": 0.7589
+  },
+  "bigbird_roberta_base": {
+    "params_M": 127,
+    "test_accuracy": 0.9234,
+    "test_macro_f1": 0.9218,
+    "valid_recall": 0.951,
+    "e2e_f1": 0.5819
+  },
+  "distilbert_base_uncased": {
+    "params_M": 66,
+    "test_accuracy": 0.8629,
+    "test_macro_f1": 0.8566,
+    "valid_recall": 0.7941,
+    "e2e_f1": 0.6455
+  },
+  "spacy": {
+    "params_M": 1,
+    "test_accuracy": 0.8387,
+    "test_macro_f1": 0.83,
+    "valid_recall": 0.7451,
+    "e2e_f1": 0.4981
+  },
+  "xlnet_base_cased": {
+    "params_M": 110,
+    "test_accuracy": 0.8306,
+    "test_macro_f1": 0.8251,
+    "valid_recall": 0.7941,
+    "e2e_f1": 0.5314
+  },
+  "roberta_base": {
+    "params_M": 125,
+    "test_accuracy": 0.629,
+    "test_macro_f1": 0.6008,
+    "valid_recall": 0.4412,
+    "e2e_f1": 0.3304
+  },
+  "passthrough": {
+    "params_M": null,
+    "test_accuracy": 0.4113,
+    "test_macro_f1": 0.2914,
+    "valid_recall": 1.0,
+    "e2e_f1": 0.3552
+  }
+}

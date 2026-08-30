@@ -1,0 +1,1210 @@
+{
+  "ontology": "C:\\Users\\Chris\\Desktop\\Buffons\\Buffons\\Final_Caves_of_QUD.owl",
+  "classes": [
+    "Character",
+    "Faction",
+    "Fighter",
+    "Item",
+    "Mutant",
+    "NPC",
+    "Organic",
+    "Place",
+    "PlayerCharacter",
+    "Quest",
+    "Race",
+    "Robot",
+    "Role",
+    "Settlement",
+    "Trader",
+    "Truekin"
+  ],
+  "relation_vocabulary": [
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Boss",
+      "short": "Boss",
+      "label": "Boss",
+      "kind": "datatype_property",
+      "domain": [
+        "Fighter"
+      ],
+      "range": [
+        "boolean"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#HP",
+      "short": "HP",
+      "label": "HP",
+      "kind": "datatype_property",
+      "domain": [],
+      "range": [],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Tier",
+      "short": "Tier",
+      "label": "Tier",
+      "kind": "datatype_property",
+      "domain": [
+        "Trader"
+      ],
+      "range": [],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Value",
+      "short": "Value",
+      "label": "Value",
+      "kind": "datatype_property",
+      "domain": [],
+      "range": [],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weight",
+      "short": "Weight",
+      "label": "Weight",
+      "kind": "datatype_property",
+      "domain": [],
+      "range": [],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#containsSettlement",
+      "short": "containsSettlement",
+      "label": "containsSettlement",
+      "kind": "object_property",
+      "domain": [
+        "Place"
+      ],
+      "range": [
+        "Settlement"
+      ],
+      "inverse": "locatedInPlace"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#dislikedBy",
+      "short": "dislikedBy",
+      "label": "dislikedBy",
+      "kind": "object_property",
+      "domain": [
+        "Character"
+      ],
+      "range": [
+        "Faction"
+      ],
+      "inverse": "dislikes"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#dislikes",
+      "short": "dislikes",
+      "label": "dislikes",
+      "kind": "object_property",
+      "domain": [
+        "Faction"
+      ],
+      "range": [
+        "Character"
+      ],
+      "inverse": "dislikedBy"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#foughtIn",
+      "short": "foughtIn",
+      "label": "foughtIn",
+      "kind": "object_property",
+      "domain": [
+        "Faction"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": "involvesFightWith"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#giveQuest",
+      "short": "giveQuest",
+      "label": "giveQuest",
+      "kind": "object_property",
+      "domain": [
+        "NPC"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": "isGivenBy"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasIndividual",
+      "short": "hasIndividual",
+      "label": "hasIndividual",
+      "kind": "object_property",
+      "domain": [
+        "Race"
+      ],
+      "range": [
+        "Mutant"
+      ],
+      "inverse": "hasRace"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasInhabitant",
+      "short": "hasInhabitant",
+      "label": "hasInhabitant",
+      "kind": "object_property",
+      "domain": [
+        "Place",
+        "Settlement"
+      ],
+      "range": [
+        "NPC"
+      ],
+      "inverse": "isHabitantOf"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasMember",
+      "short": "hasMember",
+      "label": "hasMember",
+      "kind": "object_property",
+      "domain": [
+        "Faction"
+      ],
+      "range": [
+        "NPC"
+      ],
+      "inverse": "memberOf"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasRace",
+      "short": "hasRace",
+      "label": "hasRace",
+      "kind": "object_property",
+      "domain": [
+        "Mutant"
+      ],
+      "range": [
+        "Race"
+      ],
+      "inverse": "hasIndividual"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasRole",
+      "short": "hasRole",
+      "label": "hasRole",
+      "kind": "object_property",
+      "domain": [
+        "NPC"
+      ],
+      "range": [
+        "Role"
+      ],
+      "inverse": "isRoleOf"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hates",
+      "short": "hates",
+      "label": "hates",
+      "kind": "object_property",
+      "domain": [
+        "Faction"
+      ],
+      "range": [
+        "Faction"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hostsQuest",
+      "short": "hostsQuest",
+      "label": "hostsQuest",
+      "kind": "object_property",
+      "domain": [
+        "Place",
+        "Settlement"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": "takesPlaceIn"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#involvesFightWith",
+      "short": "involvesFightWith",
+      "label": "involvesFightWith",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "Faction"
+      ],
+      "inverse": "foughtIn"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#involvesFinding",
+      "short": "involvesFinding",
+      "label": "involvesFinding",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "Item",
+        "NPC"
+      ],
+      "inverse": "isSearchTargetIn"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isGivenBy",
+      "short": "isGivenBy",
+      "label": "isGivenBy",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "NPC"
+      ],
+      "inverse": "giveQuest"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isHabitantOf",
+      "short": "isHabitantOf",
+      "label": "isHabitantOf",
+      "kind": "object_property",
+      "domain": [
+        "NPC"
+      ],
+      "range": [
+        "Place",
+        "Settlement"
+      ],
+      "inverse": "hasInhabitant"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isRewardFor",
+      "short": "isRewardFor",
+      "label": "isRewardFor",
+      "kind": "object_property",
+      "domain": [
+        "Item"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": "rewardsWith"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isRoleOf",
+      "short": "isRoleOf",
+      "label": "isRoleOf",
+      "kind": "object_property",
+      "domain": [
+        "Role"
+      ],
+      "range": [
+        "NPC"
+      ],
+      "inverse": "hasRole"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isSearchTargetIn",
+      "short": "isSearchTargetIn",
+      "label": "isSearchTargetIn",
+      "kind": "object_property",
+      "domain": [
+        "Item",
+        "NPC"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": "involvesFinding"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#level",
+      "short": "level",
+      "label": "level",
+      "kind": "datatype_property",
+      "domain": [
+        "Character"
+      ],
+      "range": [
+        "integer"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#likedBy",
+      "short": "likedBy",
+      "label": "likedBy",
+      "kind": "object_property",
+      "domain": [
+        "Character"
+      ],
+      "range": [
+        "Faction"
+      ],
+      "inverse": "likes"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#likes",
+      "short": "likes",
+      "label": "likes",
+      "kind": "object_property",
+      "domain": [
+        "Faction"
+      ],
+      "range": [
+        "Character"
+      ],
+      "inverse": "likedBy"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#locatedInPlace",
+      "short": "locatedInPlace",
+      "label": "locatedInPlace",
+      "kind": "object_property",
+      "domain": [
+        "Settlement"
+      ],
+      "range": [
+        "Place"
+      ],
+      "inverse": "containsSettlement"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#memberOf",
+      "short": "memberOf",
+      "label": "memberOf",
+      "kind": "object_property",
+      "domain": [
+        "NPC"
+      ],
+      "range": [
+        "Faction"
+      ],
+      "inverse": "hasMember"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#requiresCompleting",
+      "short": "requiresCompleting",
+      "label": "requiresCompleting",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "Quest"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#rewardsWith",
+      "short": "rewardsWith",
+      "label": "rewardsWith",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "Item"
+      ],
+      "inverse": "isRewardFor"
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#sellsItem",
+      "short": "sellsItem",
+      "label": "sellsItem",
+      "kind": "object_property",
+      "domain": [
+        "Trader"
+      ],
+      "range": [
+        "Item"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#spawnsIn",
+      "short": "spawnsIn",
+      "label": "spawnsIn",
+      "kind": "object_property",
+      "domain": [
+        "PlayerCharacter"
+      ],
+      "range": [
+        "Place"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#strata",
+      "short": "strata",
+      "label": "strata",
+      "kind": "datatype_property",
+      "domain": [
+        "Place",
+        "Settlement"
+      ],
+      "range": [
+        "integer"
+      ],
+      "inverse": null
+    },
+    {
+      "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#takesPlaceIn",
+      "short": "takesPlaceIn",
+      "label": "takesPlaceIn",
+      "kind": "object_property",
+      "domain": [
+        "Quest"
+      ],
+      "range": [
+        "Place",
+        "Settlement"
+      ],
+      "inverse": "hostsQuest"
+    }
+  ],
+  "class_ancestors": {
+    "Fighter": [
+      "Fighter",
+      "Role"
+    ],
+    "Place": [
+      "Place"
+    ],
+    "Faction": [
+      "Faction"
+    ],
+    "Truekin": [
+      "Character",
+      "Organic",
+      "Truekin"
+    ],
+    "Item": [
+      "Item"
+    ],
+    "Trader": [
+      "Role",
+      "Trader"
+    ],
+    "Robot": [
+      "Character",
+      "Robot"
+    ],
+    "Role": [
+      "Role"
+    ],
+    "Character": [
+      "Character"
+    ],
+    "Quest": [
+      "Quest"
+    ],
+    "Mutant": [
+      "Character",
+      "Mutant",
+      "Organic"
+    ],
+    "Settlement": [
+      "Settlement"
+    ],
+    "PlayerCharacter": [
+      "Character",
+      "PlayerCharacter"
+    ],
+    "Organic": [
+      "Character",
+      "Organic"
+    ],
+    "NPC": [
+      "Character",
+      "NPC"
+    ],
+    "Race": [
+      "Race"
+    ]
+  },
+  "individual_types": {
+    "Villagers_of_Joppa": [
+      "Faction"
+    ],
+    "Saad_Amus": [
+      "NPC",
+      "Truekin"
+    ],
+    "Putus_Templar": [
+      "Faction"
+    ],
+    "Grit_Gate": [
+      "Settlement"
+    ],
+    "alchemist": [
+      "Mutant",
+      "NPC"
+    ],
+    "Herodododicus": [
+      "NPC",
+      "Robot"
+    ],
+    "Tomb_of_the_Eaters": [
+      "Quest"
+    ],
+    "Joppa": [
+      "Settlement"
+    ],
+    "Robot": [
+      "Race"
+    ],
+    "quantum_mote": [
+      "Item"
+    ],
+    "Golgotha": [
+      "Place"
+    ],
+    "metamorphic_polygel": [
+      "Item"
+    ],
+    "Sparafucile": [
+      "Mutant",
+      "NPC"
+    ],
+    "Phinae_Hoshaiah_High_Priest_of_the_Rock": [
+      "Mutant",
+      "NPC"
+    ],
+    "Decoding_the_Signal": [
+      "Quest"
+    ],
+    "Truekin": [
+      "Race"
+    ],
+    "Reseph": [
+      "NPC",
+      "Robot"
+    ],
+    "Eaters_Tomb": [
+      "Place"
+    ],
+    "Slog_of_the_Cloaca": [
+      "Mutant",
+      "NPC"
+    ],
+    "Girsh": [
+      "Faction"
+    ],
+    "Pax_Qlanq_I_Presume?": [
+      "Quest"
+    ],
+    "Weirdwire_Conduit_Eureka!": [
+      "Quest"
+    ],
+    "More_Than_a_Willing_Spirit": [
+      "Quest"
+    ],
+    "Reclamation": [
+      "Quest"
+    ],
+    "Joppa_Recoiler": [
+      "Item"
+    ],
+    "Temple_of_the_Rock": [
+      "Settlement"
+    ],
+    "Baetyl": [
+      "NPC",
+      "Robot"
+    ],
+    "Sentient_Plant": [
+      "Race"
+    ],
+    "Mechanimists": [
+      "Faction"
+    ],
+    "Pax_Qlanq": [
+      "Mutant",
+      "NPC"
+    ],
+    "Trader_high": [
+      "Trader"
+    ],
+    "Barathrum_the_Old": [
+      "Mutant",
+      "NPC"
+    ],
+    "Mollusk": [
+      "Race"
+    ],
+    "Copper_Wire": [
+      "Item"
+    ],
+    "The_Golem": [
+      "Quest"
+    ],
+    "Trader_mid": [
+      "Trader"
+    ],
+    "Starformed_Ehalcodon": [
+      "Mutant",
+      "NPC"
+    ],
+    "Rainbow_Wood": [
+      "Place"
+    ],
+    "neutron_flux": [
+      "Item"
+    ],
+    "Girsh_Nephilim": [
+      "Race"
+    ],
+    "Scrapped_Waydroid": [
+      "Item"
+    ],
+    "Bethesda_Susa": [
+      "Place"
+    ],
+    "Mutated_Human": [
+      "Race"
+    ],
+    "Rust_Wells": [
+      "Place"
+    ],
+    "Fungi": [
+      "Race"
+    ],
+    "Starfarers_Quay": [
+      "Place"
+    ],
+    "Golem": [
+      "Mutant",
+      "NPC"
+    ],
+    "Urshiib": [
+      "Race"
+    ],
+    "Barathrumites": [
+      "Faction"
+    ],
+    "Sparafucile_s_Carbine": [
+      "Item"
+    ],
+    "Fighter_NonBoss": [
+      "Fighter"
+    ],
+    "Asphodel_Earl_of_Omonporch": [
+      "Mutant",
+      "NPC"
+    ],
+    "A_Call_to_Arms": [
+      "Quest"
+    ],
+    "Kun": [
+      "PlayerCharacter",
+      "Truekin"
+    ],
+    "Fighter_Boss": [
+      "Fighter"
+    ],
+    "Otho": [
+      "Mutant",
+      "NPC"
+    ],
+    "Trader_low": [
+      "Trader"
+    ],
+    "Seraphic_Covenant": [
+      "Faction"
+    ],
+    "We_Are_Starfreight": [
+      "Quest"
+    ],
+    "The_Earl_of_Omonporch": [
+      "Quest"
+    ],
+    "Omonporch": [
+      "Place"
+    ],
+    "A_Canticle_for_Barathrum": [
+      "Quest"
+    ],
+    "Argyve": [
+      "Mutant",
+      "NPC"
+    ]
+  },
+  "alias_dictionary": [
+    {
+      "alias": "Phinae Hoshaiah High Priest of the Rock",
+      "short": "Phinae_Hoshaiah_High_Priest_of_the_Rock",
+      "kind": "individual"
+    },
+    {
+      "alias": "Weirdwire Conduit... Eureka!",
+      "short": "Weirdwire_Conduit_Eureka!",
+      "kind": "individual"
+    },
+    {
+      "alias": "More Than a Willing Spirit",
+      "short": "More_Than_a_Willing_Spirit",
+      "kind": "individual"
+    },
+    {
+      "alias": "Asphodel Earl of Omonporch",
+      "short": "Asphodel_Earl_of_Omonporch",
+      "kind": "individual"
+    },
+    {
+      "alias": "Weirdwire Conduit Eureka!",
+      "short": "Weirdwire_Conduit_Eureka!",
+      "kind": "individual"
+    },
+    {
+      "alias": "A Canticle for Barathrum",
+      "short": "A_Canticle_for_Barathrum",
+      "kind": "individual"
+    },
+    {
+      "alias": "Pax Qlanq, I Presume?",
+      "short": "Pax_Qlanq_I_Presume?",
+      "kind": "individual"
+    },
+    {
+      "alias": "Sparafucile's Carbine",
+      "short": "Sparafucile_s_Carbine",
+      "kind": "individual"
+    },
+    {
+      "alias": "Sparafucile s Carbine",
+      "short": "Sparafucile_s_Carbine",
+      "kind": "individual"
+    },
+    {
+      "alias": "The Earl of Omonporch",
+      "short": "The_Earl_of_Omonporch",
+      "kind": "individual"
+    },
+    {
+      "alias": "Pax Qlanq I Presume?",
+      "short": "Pax_Qlanq_I_Presume?",
+      "kind": "individual"
+    },
+    {
+      "alias": "Merchant (Tier=high)",
+      "short": "Trader_high",
+      "kind": "individual"
+    },
+    {
+      "alias": "Starformed Ehalcodon",
+      "short": "Starformed_Ehalcodon",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fighter (Boss=False)",
+      "short": "Fighter_NonBoss",
+      "kind": "individual"
+    },
+    {
+      "alias": "metamorphic polygel",
+      "short": "metamorphic_polygel",
+      "kind": "individual"
+    },
+    {
+      "alias": "Decoding the Signal",
+      "short": "Decoding_the_Signal",
+      "kind": "individual"
+    },
+    {
+      "alias": "Merchant (Tier=mid)",
+      "short": "Trader_mid",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fighter (Boss=True)",
+      "short": "Fighter_Boss",
+      "kind": "individual"
+    },
+    {
+      "alias": "Merchant (Tier=low)",
+      "short": "Trader_low",
+      "kind": "individual"
+    },
+    {
+      "alias": "Villagers of Joppa",
+      "short": "Villagers_of_Joppa",
+      "kind": "individual"
+    },
+    {
+      "alias": "Tomb of the Eaters",
+      "short": "Tomb_of_the_Eaters",
+      "kind": "individual"
+    },
+    {
+      "alias": "Slog of the Cloaca",
+      "short": "Slog_of_the_Cloaca",
+      "kind": "individual"
+    },
+    {
+      "alias": "Temple of the Rock",
+      "short": "Temple_of_the_Rock",
+      "kind": "individual"
+    },
+    {
+      "alias": "high-tier merchant",
+      "short": "Trader_high",
+      "kind": "individual"
+    },
+    {
+      "alias": "We Are Starfreight",
+      "short": "We_Are_Starfreight",
+      "kind": "individual"
+    },
+    {
+      "alias": "Barathrum the Old",
+      "short": "Barathrum_the_Old",
+      "kind": "individual"
+    },
+    {
+      "alias": "mid-tier merchant",
+      "short": "Trader_mid",
+      "kind": "individual"
+    },
+    {
+      "alias": "Scrapped Waydroid",
+      "short": "Scrapped_Waydroid",
+      "kind": "individual"
+    },
+    {
+      "alias": "boss-tier fighter",
+      "short": "Fighter_Boss",
+      "kind": "individual"
+    },
+    {
+      "alias": "low-tier merchant",
+      "short": "Trader_low",
+      "kind": "individual"
+    },
+    {
+      "alias": "Seraphic Covenant",
+      "short": "Seraphic_Covenant",
+      "kind": "individual"
+    },
+    {
+      "alias": "Starfarers' Quay",
+      "short": "Starfarers_Quay",
+      "kind": "individual"
+    },
+    {
+      "alias": "non-boss fighter",
+      "short": "Fighter_NonBoss",
+      "kind": "individual"
+    },
+    {
+      "alias": "Starfarers Quay",
+      "short": "Starfarers_Quay",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fighter NonBoss",
+      "short": "Fighter_NonBoss",
+      "kind": "individual"
+    },
+    {
+      "alias": "PlayerCharacter",
+      "short": "PlayerCharacter",
+      "kind": "class"
+    },
+    {
+      "alias": "Joppa Recoiler",
+      "short": "Joppa_Recoiler",
+      "kind": "individual"
+    },
+    {
+      "alias": "Sentient Plant",
+      "short": "Sentient_Plant",
+      "kind": "individual"
+    },
+    {
+      "alias": "Girsh Nephilim",
+      "short": "Girsh_Nephilim",
+      "kind": "individual"
+    },
+    {
+      "alias": "A Call to Arms",
+      "short": "A_Call_to_Arms",
+      "kind": "individual"
+    },
+    {
+      "alias": "Putus Templar",
+      "short": "Putus_Templar",
+      "kind": "individual"
+    },
+    {
+      "alias": "Herodododicus",
+      "short": "Herodododicus",
+      "kind": "individual"
+    },
+    {
+      "alias": "Bethesda Susa",
+      "short": "Bethesda_Susa",
+      "kind": "individual"
+    },
+    {
+      "alias": "Mutated Human",
+      "short": "Mutated_Human",
+      "kind": "individual"
+    },
+    {
+      "alias": "Barathrumites",
+      "short": "Barathrumites",
+      "kind": "individual"
+    },
+    {
+      "alias": "quantum mote",
+      "short": "quantum_mote",
+      "kind": "individual"
+    },
+    {
+      "alias": "Eaters' Tomb",
+      "short": "Eaters_Tomb",
+      "kind": "individual"
+    },
+    {
+      "alias": "Mechanimists",
+      "short": "Mechanimists",
+      "kind": "individual"
+    },
+    {
+      "alias": "Rainbow Wood",
+      "short": "Rainbow_Wood",
+      "kind": "individual"
+    },
+    {
+      "alias": "neutron flux",
+      "short": "neutron_flux",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fighter Boss",
+      "short": "Fighter_Boss",
+      "kind": "individual"
+    },
+    {
+      "alias": "Sparafucile",
+      "short": "Sparafucile",
+      "kind": "individual"
+    },
+    {
+      "alias": "Eaters Tomb",
+      "short": "Eaters_Tomb",
+      "kind": "individual"
+    },
+    {
+      "alias": "Reclamation",
+      "short": "Reclamation",
+      "kind": "individual"
+    },
+    {
+      "alias": "Trader high",
+      "short": "Trader_high",
+      "kind": "individual"
+    },
+    {
+      "alias": "Copper Wire",
+      "short": "Copper_Wire",
+      "kind": "individual"
+    },
+    {
+      "alias": "Trader mid",
+      "short": "Trader_mid",
+      "kind": "individual"
+    },
+    {
+      "alias": "Rust Wells",
+      "short": "Rust_Wells",
+      "kind": "individual"
+    },
+    {
+      "alias": "Trader low",
+      "short": "Trader_low",
+      "kind": "individual"
+    },
+    {
+      "alias": "Settlement",
+      "short": "Settlement",
+      "kind": "class"
+    },
+    {
+      "alias": "Saad Amus",
+      "short": "Saad_Amus",
+      "kind": "individual"
+    },
+    {
+      "alias": "Grit Gate",
+      "short": "Grit_Gate",
+      "kind": "individual"
+    },
+    {
+      "alias": "alchemist",
+      "short": "alchemist",
+      "kind": "individual"
+    },
+    {
+      "alias": "Pax Qlanq",
+      "short": "Pax_Qlanq",
+      "kind": "individual"
+    },
+    {
+      "alias": "The Golem",
+      "short": "The_Golem",
+      "kind": "individual"
+    },
+    {
+      "alias": "Omonporch",
+      "short": "Omonporch",
+      "kind": "individual"
+    },
+    {
+      "alias": "Character",
+      "short": "Character",
+      "kind": "class"
+    },
+    {
+      "alias": "Golgotha",
+      "short": "Golgotha",
+      "kind": "individual"
+    },
+    {
+      "alias": "Truekin",
+      "short": "Truekin",
+      "kind": "individual"
+    },
+    {
+      "alias": "Mollusk",
+      "short": "Mollusk",
+      "kind": "individual"
+    },
+    {
+      "alias": "Urshiib",
+      "short": "Urshiib",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fighter",
+      "short": "Fighter",
+      "kind": "class"
+    },
+    {
+      "alias": "Faction",
+      "short": "Faction",
+      "kind": "class"
+    },
+    {
+      "alias": "Truekin",
+      "short": "Truekin",
+      "kind": "class"
+    },
+    {
+      "alias": "Organic",
+      "short": "Organic",
+      "kind": "class"
+    },
+    {
+      "alias": "Reseph",
+      "short": "Reseph",
+      "kind": "individual"
+    },
+    {
+      "alias": "Baetyl",
+      "short": "Baetyl",
+      "kind": "individual"
+    },
+    {
+      "alias": "Argyve",
+      "short": "Argyve",
+      "kind": "individual"
+    },
+    {
+      "alias": "Trader",
+      "short": "Trader",
+      "kind": "class"
+    },
+    {
+      "alias": "Mutant",
+      "short": "Mutant",
+      "kind": "class"
+    },
+    {
+      "alias": "Joppa",
+      "short": "Joppa",
+      "kind": "individual"
+    },
+    {
+      "alias": "Robot",
+      "short": "Robot",
+      "kind": "individual"
+    },
+    {
+      "alias": "Girsh",
+      "short": "Girsh",
+      "kind": "individual"
+    },
+    {
+      "alias": "Fungi",
+      "short": "Fungi",
+      "kind": "individual"
+    },
+    {
+      "alias": "Golem",
+      "short": "Golem",
+      "kind": "individual"
+    },
+    {
+      "alias": "Place",
+      "short": "Place",
+      "kind": "class"
+    },
+    {
+      "alias": "Robot",
+      "short": "Robot",
+      "kind": "class"
+    },
+    {
+      "alias": "Quest",
+      "short": "Quest",
+      "kind": "class"
+    },
+    {
+      "alias": "Otho",
+      "short": "Otho",
+      "kind": "individual"
+    },
+    {
+      "alias": "Item",
+      "short": "Item",
+      "kind": "class"
+    },
+    {
+      "alias": "Role",
+      "short": "Role",
+      "kind": "class"
+    },
+    {
+      "alias": "Race",
+      "short": "Race",
+      "kind": "class"
+    },
+    {
+      "alias": "Kun",
+      "short": "Kun",
+      "kind": "individual"
+    },
+    {
+      "alias": "NPC",
+      "short": "NPC",
+      "kind": "class"
+    }
+  ]
+}

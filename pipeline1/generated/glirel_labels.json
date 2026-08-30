@@ -1,0 +1,344 @@
+[
+  {
+    "label": "contains settlement",
+    "predicate_short": "containsSettlement",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#containsSettlement",
+    "domain": [
+      "Place"
+    ],
+    "range": [
+      "Settlement"
+    ],
+    "inverse": "locatedInPlace"
+  },
+  {
+    "label": "disliked by",
+    "predicate_short": "dislikedBy",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#dislikedBy",
+    "domain": [
+      "Character"
+    ],
+    "range": [
+      "Faction"
+    ],
+    "inverse": "dislikes"
+  },
+  {
+    "label": "dislikes",
+    "predicate_short": "dislikes",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#dislikes",
+    "domain": [
+      "Faction"
+    ],
+    "range": [
+      "Character"
+    ],
+    "inverse": "dislikedBy"
+  },
+  {
+    "label": "fought in",
+    "predicate_short": "foughtIn",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#foughtIn",
+    "domain": [
+      "Faction"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": "involvesFightWith"
+  },
+  {
+    "label": "give quest",
+    "predicate_short": "giveQuest",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#giveQuest",
+    "domain": [
+      "NPC"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": "isGivenBy"
+  },
+  {
+    "label": "has individual",
+    "predicate_short": "hasIndividual",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasIndividual",
+    "domain": [
+      "Race"
+    ],
+    "range": [
+      "Mutant"
+    ],
+    "inverse": "hasRace"
+  },
+  {
+    "label": "has inhabitant",
+    "predicate_short": "hasInhabitant",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasInhabitant",
+    "domain": [
+      "Place",
+      "Settlement"
+    ],
+    "range": [
+      "NPC"
+    ],
+    "inverse": "isHabitantOf"
+  },
+  {
+    "label": "has member",
+    "predicate_short": "hasMember",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasMember",
+    "domain": [
+      "Faction"
+    ],
+    "range": [
+      "NPC"
+    ],
+    "inverse": "memberOf"
+  },
+  {
+    "label": "has race",
+    "predicate_short": "hasRace",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasRace",
+    "domain": [
+      "Mutant"
+    ],
+    "range": [
+      "Race"
+    ],
+    "inverse": "hasIndividual"
+  },
+  {
+    "label": "has role",
+    "predicate_short": "hasRole",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hasRole",
+    "domain": [
+      "NPC"
+    ],
+    "range": [
+      "Role"
+    ],
+    "inverse": "isRoleOf"
+  },
+  {
+    "label": "hates",
+    "predicate_short": "hates",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hates",
+    "domain": [
+      "Faction"
+    ],
+    "range": [
+      "Faction"
+    ],
+    "inverse": null
+  },
+  {
+    "label": "hosts quest",
+    "predicate_short": "hostsQuest",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#hostsQuest",
+    "domain": [
+      "Place",
+      "Settlement"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": "takesPlaceIn"
+  },
+  {
+    "label": "involves fight with",
+    "predicate_short": "involvesFightWith",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#involvesFightWith",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "Faction"
+    ],
+    "inverse": "foughtIn"
+  },
+  {
+    "label": "involves finding",
+    "predicate_short": "involvesFinding",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#involvesFinding",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "Item",
+      "NPC"
+    ],
+    "inverse": "isSearchTargetIn"
+  },
+  {
+    "label": "is given by",
+    "predicate_short": "isGivenBy",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isGivenBy",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "NPC"
+    ],
+    "inverse": "giveQuest"
+  },
+  {
+    "label": "is habitant of",
+    "predicate_short": "isHabitantOf",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isHabitantOf",
+    "domain": [
+      "NPC"
+    ],
+    "range": [
+      "Place",
+      "Settlement"
+    ],
+    "inverse": "hasInhabitant"
+  },
+  {
+    "label": "is reward for",
+    "predicate_short": "isRewardFor",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isRewardFor",
+    "domain": [
+      "Item"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": "rewardsWith"
+  },
+  {
+    "label": "is role of",
+    "predicate_short": "isRoleOf",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isRoleOf",
+    "domain": [
+      "Role"
+    ],
+    "range": [
+      "NPC"
+    ],
+    "inverse": "hasRole"
+  },
+  {
+    "label": "is search target in",
+    "predicate_short": "isSearchTargetIn",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#isSearchTargetIn",
+    "domain": [
+      "Item",
+      "NPC"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": "involvesFinding"
+  },
+  {
+    "label": "liked by",
+    "predicate_short": "likedBy",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#likedBy",
+    "domain": [
+      "Character"
+    ],
+    "range": [
+      "Faction"
+    ],
+    "inverse": "likes"
+  },
+  {
+    "label": "likes",
+    "predicate_short": "likes",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#likes",
+    "domain": [
+      "Faction"
+    ],
+    "range": [
+      "Character"
+    ],
+    "inverse": "likedBy"
+  },
+  {
+    "label": "located in place",
+    "predicate_short": "locatedInPlace",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#locatedInPlace",
+    "domain": [
+      "Settlement"
+    ],
+    "range": [
+      "Place"
+    ],
+    "inverse": "containsSettlement"
+  },
+  {
+    "label": "member of",
+    "predicate_short": "memberOf",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#memberOf",
+    "domain": [
+      "NPC"
+    ],
+    "range": [
+      "Faction"
+    ],
+    "inverse": "hasMember"
+  },
+  {
+    "label": "requires completing",
+    "predicate_short": "requiresCompleting",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#requiresCompleting",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "Quest"
+    ],
+    "inverse": null
+  },
+  {
+    "label": "rewards with",
+    "predicate_short": "rewardsWith",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#rewardsWith",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "Item"
+    ],
+    "inverse": "isRewardFor"
+  },
+  {
+    "label": "sells item",
+    "predicate_short": "sellsItem",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#sellsItem",
+    "domain": [
+      "Trader"
+    ],
+    "range": [
+      "Item"
+    ],
+    "inverse": null
+  },
+  {
+    "label": "spawns in",
+    "predicate_short": "spawnsIn",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#spawnsIn",
+    "domain": [
+      "PlayerCharacter"
+    ],
+    "range": [
+      "Place"
+    ],
+    "inverse": null
+  },
+  {
+    "label": "takes place in",
+    "predicate_short": "takesPlaceIn",
+    "uri": "http://www.semanticweb.org/chris/ontologies/caverne-di-qud#takesPlaceIn",
+    "domain": [
+      "Quest"
+    ],
+    "range": [
+      "Place",
+      "Settlement"
+    ],
+    "inverse": "hostsQuest"
+  }
+]

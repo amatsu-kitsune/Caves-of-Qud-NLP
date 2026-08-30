@@ -1,0 +1,16 @@
+Girsh Nephilim includes Starformed Ehalcodon.
+Starformed Ehalcodon is fought in Reclamation.
+Reclamation is unlocked by The Golem.
+Starformed Ehalcodon has 12000 HP.
+Reclamation requires fighting Starformed Ehalcodon.
+boss-tier Fighter is the role of Phinae Hoshaiah High Priest of the Rock.
+Reclamation requires fighting Girsh.
+boss-tier Fighter is the role of Slog of the Cloaca.
+Starformed Ehalcodon works as a boss-tier Fighter.
+Starformed Ehalcodon is a member of Girsh.
+boss-tier Fighter is the role of Starformed Ehalcodon.
+Girsh is hostile to Barathrumites.
+Reclamation is offered by Barathrum the Old.
+Girsh despises Mechanimists.
+boss-tier Fighter is the role of Saad Amus.
+Reclamation is set in Omonporch.

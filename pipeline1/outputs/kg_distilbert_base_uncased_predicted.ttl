@@ -1,0 +1,215 @@
+@prefix qud: <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#> .
+
+qud:Asphodel_Earl_of_Omonporch a qud:Mutant,
+        qud:NPC ;
+    qud:hasRace qud:Sentient_Plant ;
+    qud:isHabitantOf qud:Omonporch .
+
+qud:Barathrum_the_Old a qud:Mutant,
+        qud:NPC ;
+    qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?>,
+        qud:Reclamation,
+        qud:We_Are_Starfreight ;
+    qud:hasRace qud:Fungi,
+        qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Golgotha a qud:Place ;
+    qud:hostsQuest qud:More_Than_a_Willing_Spirit .
+
+qud:Joppa a qud:Settlement ;
+    qud:hasInhabitant qud:Argyve .
+
+qud:Pax_Qlanq a qud:Mutant,
+        qud:NPC ;
+    qud:giveQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> ;
+    qud:hasRace qud:Fungi .
+
+qud:Phinae_Hoshaiah_High_Priest_of_the_Rock a qud:Mutant,
+        qud:NPC ;
+    qud:hasRace qud:Mutated_Human ;
+    qud:hasRole qud:Fighter_Boss ;
+    qud:isHabitantOf qud:Temple_of_the_Rock ;
+    qud:likedBy qud:Mechanimists ;
+    qud:memberOf qud:Mechanimists .
+
+qud:Rainbow_Wood a qud:Place ;
+    qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Rust_Wells a qud:Place ;
+    qud:hostsQuest <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:Sparafucile a qud:Mutant,
+        qud:NPC ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:memberOf qud:Barathrumites .
+
+qud:Starformed_Ehalcodon a qud:Mutant,
+        qud:NPC ;
+    qud:memberOf qud:Girsh .
+
+qud:alchemist a qud:Mutant,
+        qud:NPC ;
+    qud:hasRole qud:Fighter_NonBoss,
+        qud:Trader_high ;
+    qud:isHabitantOf qud:Bethesda_Susa .
+
+qud:quantum_mote a qud:Item ;
+    qud:isRewardFor <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> .
+
+qud:Fighter_Boss a qud:Fighter .
+
+qud:Fighter_NonBoss a qud:Fighter .
+
+qud:Golem a qud:Mutant,
+        qud:NPC ;
+    qud:memberOf qud:Mechanimists .
+
+qud:Mutated_Human a qud:Race .
+
+qud:Sentient_Plant a qud:Race .
+
+qud:Sparafucile_s_Carbine a qud:Item ;
+    qud:isRewardFor qud:More_Than_a_Willing_Spirit .
+
+qud:Starfarers_Quay a qud:Place ;
+    qud:hostsQuest qud:Reclamation .
+
+qud:The_Golem a qud:Quest .
+
+qud:Trader_high a qud:Trader .
+
+qud:Baetyl a qud:NPC,
+        qud:Robot ;
+    qud:isHabitantOf qud:Temple_of_the_Rock .
+
+qud:Bethesda_Susa a qud:Place .
+
+qud:Fungi a qud:Race .
+
+qud:Kun a qud:PlayerCharacter,
+        qud:Truekin ;
+    qud:dislikedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar ;
+    qud:likedBy qud:Barathrumites,
+        qud:Girsh,
+        qud:Putus_Templar .
+
+qud:Omonporch a qud:Place ;
+    qud:hostsQuest qud:Reclamation .
+
+qud:We_Are_Starfreight a qud:Quest ;
+    qud:requiresCompleting qud:Reclamation ;
+    qud:takesPlaceIn qud:Omonporch,
+        qud:Starfarers_Quay .
+
+qud:Temple_of_the_Rock a qud:Settlement ;
+    qud:hasInhabitant qud:Baetyl ;
+    qud:hostsQuest qud:More_Than_a_Willing_Spirit ;
+    qud:locatedInPlace qud:Bethesda_Susa .
+
+qud:Urshiib a qud:Race .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> a qud:Quest .
+
+<http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Pax_Qlanq_I_Presume?> a qud:Quest .
+
+qud:Reclamation a qud:Quest ;
+    qud:involvesFightWith qud:Girsh ;
+    qud:requiresCompleting qud:The_Golem .
+
+qud:Argyve a qud:Mutant,
+        qud:NPC ;
+    qud:likedBy qud:Barathrumites ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:Girsh a qud:Faction ;
+    qud:hates qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:Grit_Gate a qud:Settlement ;
+    qud:hostsQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch,
+        qud:We_Are_Starfreight,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> .
+
+qud:More_Than_a_Willing_Spirit a qud:Quest ;
+    qud:rewardsWith qud:Sparafucile_s_Carbine .
+
+qud:Otho a qud:Mutant,
+        qud:NPC ;
+    qud:giveQuest qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasRace qud:Urshiib ;
+    qud:isHabitantOf qud:Grit_Gate ;
+    qud:isSearchTargetIn qud:Decoding_the_Signal ;
+    qud:memberOf qud:Barathrumites,
+        qud:Mechanimists .
+
+qud:Putus_Templar a qud:Faction ;
+    qud:dislikes qud:Kun ;
+    qud:foughtIn qud:The_Earl_of_Omonporch ;
+    qud:hates qud:Barathrumites .
+
+qud:A_Call_to_Arms a qud:Quest ;
+    qud:involvesFightWith qud:Putus_Templar ;
+    qud:isGivenBy qud:Otho ;
+    qud:requiresCompleting qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:A_Canticle_for_Barathrum a qud:Quest ;
+    qud:isGivenBy qud:Argyve ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch,
+        <http://www.semanticweb.org/chris/ontologies/caverne-di-qud#Weirdwire_Conduit_Eureka!> ;
+    qud:takesPlaceIn qud:Grit_Gate .
+
+qud:The_Earl_of_Omonporch a qud:Quest ;
+    qud:involvesFightWith qud:Putus_Templar ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal .
+
+qud:Decoding_the_Signal a qud:Quest ;
+    qud:involvesFinding qud:Baetyl ;
+    qud:requiresCompleting qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:More_Than_a_Willing_Spirit,
+        qud:The_Earl_of_Omonporch ;
+    qud:takesPlaceIn qud:Temple_of_the_Rock .
+
+qud:Mechanimists a qud:Faction ;
+    qud:foughtIn qud:Decoding_the_Signal ;
+    qud:hates qud:Girsh,
+        qud:Mechanimists ;
+    qud:likes qud:Argyve,
+        qud:Otho .
+
+qud:Barathrumites a qud:Faction ;
+    qud:dislikes qud:Otho ;
+    qud:foughtIn qud:A_Call_to_Arms,
+        qud:A_Canticle_for_Barathrum,
+        qud:Decoding_the_Signal,
+        qud:The_Earl_of_Omonporch ;
+    qud:hasMember qud:Argyve,
+        qud:Golem,
+        qud:Otho ;
+    qud:hates qud:Barathrumites,
+        qud:Mechanimists,
+        qud:Putus_Templar ;
+    qud:likes qud:Argyve,
+        qud:Kun,
+        qud:Otho .
+

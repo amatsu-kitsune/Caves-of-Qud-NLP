@@ -1,0 +1,10 @@
+Omonporch sits at strata 0.
+Asphodel Earl of Omonporch lives in Omonporch.
+The Earl of Omonporch takes place in Omonporch.
+Omonporch is the setting of Reclamation.
+Sentient Plant includes Asphodel Earl of Omonporch.
+Asphodel Earl of Omonporch has 500 HP.
+Asphodel Earl of Omonporch is the target of The Earl of Omonporch.
+Omonporch shelters Asphodel Earl of Omonporch.
+Omonporch is the setting of We Are Starfreight.
+The Earl of Omonporch has the player seek Asphodel Earl of Omonporch.
